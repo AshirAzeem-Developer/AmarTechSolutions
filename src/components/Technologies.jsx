@@ -13,7 +13,7 @@ import "aos/dist/aos.css";
 
 const Technologies = () => {
   useEffect(() => {
-    AOS.init({ duration: "1000" });
+    AOS.init({ duration: "2000" });
   }, []);
 
   // const [scroll, setScroll] = useState(false);

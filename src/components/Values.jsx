@@ -4,7 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 function Values() {
   useEffect(() => {
-    AOS.init({ duration: "1000" });
+    AOS.init({ duration: "2000" });
   }, []);
 
   return (
