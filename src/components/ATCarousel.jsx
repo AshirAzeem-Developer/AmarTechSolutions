@@ -36,7 +36,7 @@ const ATCarousel = () => {
       review: `I need Project Teams from time to time and Amar-Tech has always helped me with this. I am satisfied and would highly recommend their services.`,
     },
     {
-      name: `Jannet Morirs `,
+      name: `Morirs Jannes `,
       designation: `Designer`,
 
       img: UserAvatar,

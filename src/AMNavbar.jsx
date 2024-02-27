@@ -60,7 +60,7 @@ const AMNavbar = () => {
     let scrollValue = document.documentElement.scrollTop;
     if (scrollValue > 500) {
       setScroll(true);
-      console.log(scrollValue);
+      // console.log(scrollValue);
     } else {
       setScroll(false);
     }

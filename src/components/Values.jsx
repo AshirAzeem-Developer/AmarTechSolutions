@@ -22,7 +22,7 @@ function Values() {
             >
               Assemble a team of experienced software developers, architects,
               and digital consultants who are skilled in the relevant
-              technologies and have a track record of successful projects
+              technologies and have a track record of successful projects.
             </li>
             <li
               className="text-white py-2 "
@@ -30,7 +30,7 @@ function Values() {
               data-aos-duration="2000"
             >
               Implement robust quality assurance and testing processes to ensure
-              the reliability and security of the software you deliver
+              the reliability and security of the software you deliver.
             </li>
             <li
               className="text-white py-2 "
@@ -63,7 +63,7 @@ function Values() {
           <img
             src={png}
             alt="valuesImage"
-            srcset=""
+            srcSet=""
             className="hidden md:block rounded-full mx-4"
             data-aos="fade-up"
             data-aos-duration="10000"

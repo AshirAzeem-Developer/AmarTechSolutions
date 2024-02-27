@@ -17,7 +17,7 @@ const Services = () => {
   const [hover, setHover] = useState(false);
 
   const handleHover = () => {
-    console.log(hover);
+    console.log(hoveredIndex);
   };
   const servicesAssets = [
     {
@@ -29,7 +29,7 @@ const Services = () => {
     },
     {
       iconSrc: FrontEnd,
-      serviceTitle: "Front Development",
+      serviceTitle: "Frontend Development",
       description:
         " Skills in building user interfaces using technologies like React for creating responsive and interactive web applications",
       altText: "Frontend Picture",
@@ -43,7 +43,7 @@ const Services = () => {
     },
     {
       iconSrc: Monitor,
-      serviceTitle: "Monitoring And Analytics",
+      serviceTitle: "Monitoring & Analytics",
       description:
         " Experience with ELK (Elasticsearch, Logstash, Kibana) stack for log analysis and monitoring, ensuring system health and performance.",
       altText: "Monitoring And Analytics Picture",
