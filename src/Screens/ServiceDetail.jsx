@@ -18,6 +18,7 @@ const ServiceDetail = () => {
   return (
     <>
       <div className="bg-[#D2D2DB] w-screen h-screen">
+        {/* ====================== >>> Section 1 Starts Here <<<< ============================== */}
         <div className="bg-[#D2D2DB] grid grid-rows-2">
           <video
             src={BgVideo}
@@ -49,6 +50,9 @@ const ServiceDetail = () => {
             </div>
           </div>
         </div>
+        {/* ====================== >>> Section 1 Ends Here <<<< ============================== */}
+        {/* ====================== >>> Section 2 Starts Here <<<< ============================== */}
+
         <div
           className="bg-[#D2D2DB] grid md:grid-cols-12 gap-8 px-12 items-center justify-center"
           style={{
@@ -106,6 +110,10 @@ const ServiceDetail = () => {
             </div>
           </div>
         </div>
+
+        {/* ====================== >>> Section 2 Ends Here <<<< ============================== */}
+        {/* ====================== >>> Section 3 Starts Here <<<< ============================== */}
+
         <div className="bg-[#D2D2DB] h-auto py-10">
           <h1 className="text-4xl px-8 text-black font-semibold">
             Transforming Businesses through Smart Software Solutions and
@@ -157,6 +165,8 @@ const ServiceDetail = () => {
             </div>
           </div>
         </div>
+
+        {/* ====================== >>> Section 3 Ends Here <<<< ============================== */}
       </div>
     </>
   );
