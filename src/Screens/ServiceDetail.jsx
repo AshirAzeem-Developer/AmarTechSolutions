@@ -13,6 +13,18 @@ import Lang5 from "../assets/Backend/C++.png";
 import Web from "../assets/Backend/Icons/Web.png";
 import MAD from "../assets/Backend/Icons/MAD.png";
 import UiUx from "../assets/Backend/Icons/UiUx.png";
+import andriod from "../assets/Backend/Icons/app.png";
+import ios from "../assets/Backend/Icons/ios.png";
+import pwa from "../assets/Backend/Icons/Pwa.png";
+import cross from "../assets/Backend/Icons/cross.png";
+import CustomizedTimeline from "../components/CustomizedTimeline";
+import arrow from "../assets/Backend/Icons/arrow.png";
+import Footer from "../components/Footer";
+import { IoLogoLinkedin } from "react-icons/io5";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { Mail, MapPin, Phone } from "lucide-react";
+import Logo from "../assets/Logo.png";
+import MainFooter from "../components/MainFooter";
 
 const ServiceDetail = () => {
   return (
@@ -167,6 +179,104 @@ const ServiceDetail = () => {
         </div>
 
         {/* ====================== >>> Section 3 Ends Here <<<< ============================== */}
+        {/* ====================== >>> Section 4 Starts Here <<<< ============================== */}
+        <div className="bg-[#D2D2DB] h-auto  py-10 justify-center">
+          <h1 className="text-3xl text-center font-bold text-black ">
+            Why Choose Amar Tech for Software Development Services?
+          </h1>
+          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 row-2 gap-4 items-center justify-center px-6 md:px-8 lg:px-20 pt-12">
+            <div className="bg-white   w-auto md:h-[300px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
+              <div className="flex flex-row p-4   ">
+                <img src={andriod} alt="imageHere" className="h-28  " />
+                <h2 className="text-black text-center text-4xl  font-medium md:px-8 lg:px-20 pt-4">
+                  Android App Development
+                </h2>
+              </div>
+
+              <p className="text-black font-medium text-2xl text-justify px-4 pt-3 content-center">
+                We use Kotlin and Java technologies; our Android app developers
+                build apps that work pretty well on all Android devices. From
+                design to development, every feature of the app is meticulously
+                designed with a user-centric approach.
+              </p>
+            </div>
+            <div className="bg-white w-auto md:h-[300px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
+              <div className="flex flex-row p-4   ">
+                <img src={ios} alt="imageHere" className="h-28" />
+                <h2 className="text-black text-4xl text-center font-medium md:px-8 lg:px-28 pt-4 ">
+                  iOS App Development
+                </h2>
+              </div>
+              <p className="text-black font-medium text-2xl text-justify px-4 pt-3 content-center">
+                Whether it’s the latest iPhone, iPad, or Apple watch, our iOS
+                app developers know how to create robust iOS apps from Object C
+                and Swift. With a professional iOS app, you’ll increase your
+                reach in no time.
+              </p>
+            </div>
+            <div className="bg-white w-auto md:h-[300px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
+              <div className="flex flex-row p-4   ">
+                <img src={pwa} alt="imageHere" className="h-28" />
+                <h2 className="text-black text-4xl text-center font-medium md:px-8 lg:px-20 pt-4 ">
+                  Progressive Web Apps (PWAs)
+                </h2>
+              </div>
+              <p className="text-black font-medium text-2xl text-justify px-4 pt-3 content-center">
+                Our mobile app developers have the expertise to design and
+                develop Progressive Web Apps (PWAs) that will enhance your
+                offline functionality. No download necessary; these apps will
+                run directly from the server.
+              </p>
+            </div>
+            <div className="bg-white md:h-[300px]  w-auto rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
+              <div className="flex flex-row p-4   ">
+                <img src={cross} alt="imageHere" className="h-28" />
+                <h2 className="text-black text-4xl text-center font-medium md:px-8 lg:px-28 pt-4">
+                  Cross Platform Compatibility
+                </h2>
+              </div>
+              <p className="text-black font-medium text-2xl text-justify px-4 pt-3 content-center">
+                The core focus of our UI/UX design is the principles that are
+                tested and tried by dozens of clients. By designing and
+                delivering responsive and cross-platform compatible designs, we
+                ensure that they work on any platform.
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* ====================== >>> Section 4 End Here <<<< ============================== */}
+        {/* ====================== >>> Section 5 Starts Here <<<< ============================== */}
+        <div className="bg-[#D2D2DB] h-auto">
+          <h1 className="text-4xl text-center  px-8 text-black font-semibold">
+            How Amartech Organize A Smooth Workflow For Their Clients?
+          </h1>
+          <div className="pt-8">
+            <CustomizedTimeline />
+            //
+          </div>
+        </div>
+        {/* ====================== >>> Section 5 Ends Here <<<< ==============================
+             {/* ====================== >>> Section 6 starts Here <<<< ============================== */}
+        <div className="bg-[#D2D2DB] pb-5 grid grid-col-1 justify-center">
+          <div className="bg-[#053F74]  rounded-3xl h-[250px] lg:h-[250px] w-auto flex flex-col items-center justify-center">
+            <h1 className="text-5xl text-center text-[#D2D2DB] font-bold p-12">
+              Want To Shape Your Business?
+            </h1>
+            <div className="bg-[#D2D2DB] rounded-lg">
+              <button className="rounded-2xl md:w-a text-4xl p-2 flex flex-row items-center   text-[#FFFFFF]">
+                Start Conversation Now
+                <span>
+                  <img src={arrow} className="w-14 pl-4" />
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* ====================== >>> Section 6 Ends Here <<<< ============================== */}
+        <div className=" bg-[#053F74] p-4 w-100  h-auto mx-auto   mySubContainerClass">
+          <MainFooter />
+        </div>
       </div>
     </>
   );
