@@ -17,14 +17,11 @@ import andriod from "../assets/Backend/Icons/app.png";
 import ios from "../assets/Backend/Icons/ios.png";
 import pwa from "../assets/Backend/Icons/Pwa.png";
 import cross from "../assets/Backend/Icons/cross.png";
-import CustomizedTimeline from "../components/CustomizedTimeline";
+// import CustomizedTimeline from "../components/CustomizedTimelinea";
 import arrow from "../assets/Backend/Icons/arrow.png";
-import Footer from "../components/Footer";
-import { IoLogoLinkedin } from "react-icons/io5";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
-import { Mail, MapPin, Phone } from "lucide-react";
-import Logo from "../assets/Logo.png";
+
 import MainFooter from "../components/MainFooter";
+import LeftAlignedTimeline from "../components/CustomizedTimeline";
 
 const ServiceDetail = () => {
   return (
@@ -203,7 +200,7 @@ const ServiceDetail = () => {
             <div className="bg-white w-auto md:h-[300px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
               <div className="flex flex-row p-4   ">
                 <img src={ios} alt="imageHere" className="h-28" />
-                <h2 className="text-black text-4xl text-center font-medium md:px-8 lg:px-28 pt-4 ">
+                <h2 className="text-black text-4xl text-center font-medium md:px-8  pt-4 ">
                   iOS App Development
                 </h2>
               </div>
@@ -231,7 +228,7 @@ const ServiceDetail = () => {
             <div className="bg-white md:h-[300px]  w-auto rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
               <div className="flex flex-row p-4   ">
                 <img src={cross} alt="imageHere" className="h-28" />
-                <h2 className="text-black text-4xl text-center font-medium md:px-8 lg:px-28 pt-4">
+                <h2 className="text-black text-4xl text-center font-medium md:px-8  pt-4">
                   Cross Platform Compatibility
                 </h2>
               </div>
@@ -251,8 +248,7 @@ const ServiceDetail = () => {
             How Amartech Organize A Smooth Workflow For Their Clients?
           </h1>
           <div className="pt-8">
-            <CustomizedTimeline />
-            //
+            <LeftAlignedTimeline />
           </div>
         </div>
         {/* ====================== >>> Section 5 Ends Here <<<< ==============================
@@ -266,7 +262,7 @@ const ServiceDetail = () => {
               <button className="rounded-2xl md:w-a text-4xl p-2 flex flex-row items-center   text-[#FFFFFF]">
                 Start Conversation Now
                 <span>
-                  <img src={arrow} className="w-14 pl-4" />
+                  <img src={arrow} alt="imageHere" className="w-14 pl-4" />
                 </span>
               </button>
             </div>

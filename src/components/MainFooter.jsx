@@ -7,7 +7,6 @@ import { FaFacebook } from "react-icons/fa";
 import { Mail, MapPin, Phone } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import ATCarousel from "./ATCarousel";
 
 const MainFooter = () => {
   useEffect(() => {
