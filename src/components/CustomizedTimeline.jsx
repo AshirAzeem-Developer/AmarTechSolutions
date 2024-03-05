@@ -11,8 +11,8 @@ import "react-vertical-timeline-component/style.min.css";
 export default function CustomizedTimeline() {
   return (
     <>
-      <div className="bg-[#D2D2DB]  flex flex-col items-end justify-center mt-12">
-        <div className=" bg-[#F6F6F6] rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4 z-10">
+      <div className="bg-[#D2D2DB]  flex flex-col items-end justify-center mt-12 py-12">
+        <div className=" bg-[#F6F6F6] rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4 ">
           <div className="col-span-2">
             <img src={Team} alt="imageHere" className="h-auto w-44" />
           </div>
@@ -31,10 +31,10 @@ export default function CustomizedTimeline() {
           </div>
         </div>
         {/* ========== >>>> Line 1 Starts <<<<< =========== */}
-        <div className="w-[75%] h-64  border-l-8 border-dashed  relative -top-28 -right-6"></div>
+        {/* <div className="w-[75%] h-64  border-l-8 border-dashed  relative -top-28 -right-6"></div> */}
         {/* ========== >>>> Line 1 Ends <<<<< =========== */}
 
-        <div className="  rounded-xl mx-10 p-6  grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4 z-10 relative -top-[200px] bottom-0">
+        <div className="  rounded-xl mx-10 p-6  grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4 ">
           <div className="col-span-2">
             <img src={quality} alt="imageHere" className="h-auto w-44" />
           </div>
@@ -52,10 +52,10 @@ export default function CustomizedTimeline() {
           </div>
         </div>
         {/* ========== >>>> Line 2 Starts <<<<< =========== */}
-        <div className="w-[75%] h-64  border-l-8  border-dashed  relative -top-72 -right-6"></div>
+        {/* <div className="w-[75%] h-64  border-l-8  border-dashed  relative -top-72 -right-6"></div> */}
         {/* ========== >>>> Line 2 Ends <<<<< =========== */}
 
-        <div className=" bg-[#F6F6F6] rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4  z-10 relative -top-[400px] bottom-0">
+        <div className=" bg-[#F6F6F6] rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4  ">
           <div className="col-span-2">
             <img src={contiues} alt="imageHere" className="h-auto w-44" />
           </div>
@@ -74,9 +74,9 @@ export default function CustomizedTimeline() {
           </div>
         </div>
         {/* ========== >>>> Line 3 Starts <<<<< =========== */}
-        <div className="w-[75%] h-64  border-l-8  border-dashed  relative -top-[480px] -right-6"></div>
+        {/* <div className="w-[75%] h-64  border-l-8  border-dashed  relative -top-[480px] -right-6"></div> */}
         {/* ========== >>>> Line 3 Ends <<<<< =========== */}
-        <div className="w-fit  rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4 z-10 relative -top-[600px] bottom-0 -left-[92px]">
+        <div className="w-fit  rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4 ">
           <div className="col-span-2">
             <img src={scale} alt="imageHere" className="h-auto w-44" />
           </div>
@@ -94,9 +94,9 @@ export default function CustomizedTimeline() {
           </div>
         </div>
         {/* ========== >>>> Line 4 Starts <<<<< =========== */}
-        <div className="w-[75%] h-64  border-l-8  border-dashed  relative -top-[700px] -right-6 bottom-0"></div>
+        {/* <div className="w-[75%] h-64  border-l-8  border-dashed  relative -top-[700px] -right-6 bottom-0"></div> */}
         {/* ========== >>>> Line 4 Ends <<<<< =========== */}
-        <div className=" bg-[#F6F6F6] rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4  z-10 relative -top-[750px] bottom-0">
+        <div className=" bg-[#F6F6F6] rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4  ">
           <div className="col-span-2">
             <img src={feedback} alt="imageHere" className="h-auto w-44" />
           </div>
