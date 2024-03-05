@@ -243,7 +243,7 @@ const ServiceDetail = () => {
         </div>
         {/* ====================== >>> Section 4 End Here <<<< ============================== */}
         {/* ====================== >>> Section 5 Starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] h-auto">
+        <div className="bg-[#D2D2DB] h-auto ">
           <h1 className="text-4xl text-center  px-8 text-black font-semibold">
             How Amartech Organize A Smooth Workflow For Their Clients?
           </h1>

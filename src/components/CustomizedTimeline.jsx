@@ -1,121 +1,119 @@
 import * as React from "react";
-import Timeline from "@mui/lab/Timeline";
-import TimelineItem from "@mui/lab/TimelineItem";
-import TimelineSeparator from "@mui/lab/TimelineSeparator";
-import TimelineConnector from "@mui/lab/TimelineConnector";
-import TimelineContent from "@mui/lab/TimelineContent";
-import TimelineDot from "@mui/lab/TimelineDot";
 
-import Typography from "@mui/material/Typography";
 import Team from "../assets/Backend/Icons/Team.png";
 import quality from "../assets/Backend/Icons/quality.png";
 import contiues from "../assets/Backend/Icons/contiues.png";
 import scale from "../assets/Backend/Icons/scale.png";
 import feedback from "../assets/Backend/Icons/feedback.png";
-import Num1 from "../assets/Backend/Icons/Num1.png";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+
 import "react-vertical-timeline-component/style.min.css";
-import { FileDigit, SchoolIcon, StarIcon, WorkflowIcon } from "lucide-react";
-import { Numbers } from "@mui/icons-material";
-import IconDigit from "./IconDigit";
+
 export default function CustomizedTimeline() {
   return (
-    <VerticalTimeline layout="1-column-left">
-      <VerticalTimelineElement
-        className="vertical-timeline-element--work"
-        contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-        date="2011 - present"
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        icon={<IconDigit digit={1} />}
-      >
-        <h3 className="vertical-timeline-element-title">Creative Director</h3>
-        <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-        <p>
-          Creative Direction, User Experience, Visual Design, Project
-          Management, Team Leading
-        </p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className="vertical-timeline-element--work"
-        date="2010 - 2011"
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        icon={<WorkflowIcon />}
-      >
-        <h3 className="vertical-timeline-element-title">Art Director</h3>
-        <h4 className="vertical-timeline-element-subtitle">
-          San Francisco, CA
-        </h4>
-        <p>
-          Creative Direction, User Experience, Visual Design, SEO, Online
-          Marketing
-        </p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className="vertical-timeline-element--work"
-        date="2008 - 2010"
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        icon={<WorkflowIcon />}
-      >
-        <h3 className="vertical-timeline-element-title">Web Designer</h3>
-        <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-        <p>User Experience, Visual Design</p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className="vertical-timeline-element--work"
-        date="2006 - 2008"
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        icon={<WorkflowIcon />}
-      >
-        <h3 className="vertical-timeline-element-title">Web Designer</h3>
-        <h4 className="vertical-timeline-element-subtitle">
-          San Francisco, CA
-        </h4>
-        <p>User Experience, Visual Design</p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className="vertical-timeline-element--education"
-        date="April 2013"
-        iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-        icon={<SchoolIcon />}
-      >
-        <h3 className="vertical-timeline-element-title">
-          Content Marketing for Web, Mobile and Social Media
-        </h3>
-        <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-        <p>Strategy, Social Media</p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className="vertical-timeline-element--education"
-        date="November 2012"
-        iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-        icon={<SchoolIcon />}
-      >
-        <h3 className="vertical-timeline-element-title">
-          Agile Development Scrum Master
-        </h3>
-        <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-        <p>Creative Direction, User Experience, Visual Design</p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className="vertical-timeline-element--education"
-        date="2002 - 2006"
-        iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-        icon={<SchoolIcon />}
-      >
-        <h3 className="vertical-timeline-element-title">
-          Bachelor of Science in Interactive Digital Media Visual Imaging
-        </h3>
-        <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-        <p>Creative Direction, Visual Design</p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-        icon={<StarIcon />}
-      />
-    </VerticalTimeline>
+    <>
+      <div className="bg-[#D2D2DB]  flex flex-col items-end justify-center mt-12">
+        <div className=" bg-[#F6F6F6] rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4 z-10">
+          <div className="col-span-2">
+            <img src={Team} alt="imageHere" className="h-auto w-44" />
+          </div>
+          <div className="col-span-2 w-32 h-auto mx-8 p-8 px-12 sm:flex items-center justify-center bg-[#A7D7FA] rounded-full hidden ">
+            <h1 className="text-6xl">1</h1>
+          </div>
+          <div className="sm:col-span-8 col-span-3">
+            <h1 className="text-4xl my-2 maven-pro-bold text-black ">
+              Team Expertise
+            </h1>
+            <p className="text-xl maven-pro-regular text-black/80  ">
+              Assemble a team of experienced software developers, architects,
+              and digital consultants who are skilled in the relevant
+              technologies and have a track record of successful projects.
+            </p>
+          </div>
+        </div>
+        {/* ========== >>>> Line 1 Starts <<<<< =========== */}
+        <div className="w-[75%] h-64  border-l-8 border-dashed  relative -top-28 -right-6"></div>
+        {/* ========== >>>> Line 1 Ends <<<<< =========== */}
+
+        <div className="  rounded-xl mx-10 p-6  grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4 z-10 relative -top-[200px] bottom-0">
+          <div className="col-span-2">
+            <img src={quality} alt="imageHere" className="h-auto w-44" />
+          </div>
+          <div className="col-span-2 w-32 h-auto mx-8 p-8 px-12 hidden sm:flex items-center justify-center bg-[#A7D7FA] rounded-full">
+            <h1 className="text-6xl ">2</h1>
+          </div>
+          <div className="col-span-8">
+            <h1 className="text-4xl my-2 maven-pro-bold text-black">
+              Quality Assurance
+            </h1>
+            <p className="text-xl maven-pro-regular text-black/80">
+              Implement robust quality assurance and testing processes to ensure
+              the reliability and security of the software you deliver.
+            </p>
+          </div>
+        </div>
+        {/* ========== >>>> Line 2 Starts <<<<< =========== */}
+        <div className="w-[75%] h-64  border-l-8  border-dashed  relative -top-72 -right-6"></div>
+        {/* ========== >>>> Line 2 Ends <<<<< =========== */}
+
+        <div className=" bg-[#F6F6F6] rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4  z-10 relative -top-[400px] bottom-0">
+          <div className="col-span-2">
+            <img src={contiues} alt="imageHere" className="h-auto w-44" />
+          </div>
+          <div className="col-span-2 w-32 h-auto mx-8 p-8 px-12 hidden sm:flex items-center justify-center bg-[#A7D7FA] rounded-full">
+            <h1 className="text-6xl">3</h1>
+          </div>
+          <div className="col-span-8">
+            <h1 className="text-4xl my-2 font-bold text-black">
+              Continues Learning
+            </h1>
+            <p className="text-xl maven-pro-regular text-black/80">
+              The tech industry is ever-evolving. Encourage your team to
+              continually learn and adapt to new technologies and best
+              practices.
+            </p>
+          </div>
+        </div>
+        {/* ========== >>>> Line 3 Starts <<<<< =========== */}
+        <div className="w-[75%] h-64  border-l-8  border-dashed  relative -top-[480px] -right-6"></div>
+        {/* ========== >>>> Line 3 Ends <<<<< =========== */}
+        <div className="w-fit  rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4 z-10 relative -top-[600px] bottom-0 -left-[92px]">
+          <div className="col-span-2">
+            <img src={scale} alt="imageHere" className="h-auto w-44" />
+          </div>
+          <div className="col-span-2 w-32 h-auto mx-8 p-8 px-12 hidden sm:flex items-center justify-center bg-[#A7D7FA] rounded-full">
+            <h1 className="text-6xl">4</h1>
+          </div>
+          <div className="col-span-8 ps-4">
+            <h1 className="text-4xl my-2 maven-pro-bold text-black">
+              Scalability
+            </h1>
+            <p className="text-xl maven-pro-regular text-black/80">
+              Plan for scalability so that your business can grow as demand for
+              your services increases.
+            </p>
+          </div>
+        </div>
+        {/* ========== >>>> Line 4 Starts <<<<< =========== */}
+        <div className="w-[75%] h-64  border-l-8  border-dashed  relative -top-[700px] -right-6 bottom-0"></div>
+        {/* ========== >>>> Line 4 Ends <<<<< =========== */}
+        <div className=" bg-[#F6F6F6] rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4  z-10 relative -top-[750px] bottom-0">
+          <div className="col-span-2">
+            <img src={feedback} alt="imageHere" className="h-auto w-44" />
+          </div>
+          <div className="col-span-2 w-32 h-auto mx-8 p-8 px-12 hidden sm:flex items-center justify-center bg-[#A7D7FA] rounded-full">
+            <h1 className="text-6xl">5</h1>
+          </div>
+          <div className="col-span-8">
+            <h1 className="text-4xl my-2 maven-pro-bold text-black">
+              Feedback & Improvement
+            </h1>
+            <p className="text-xl maven-pro-regular text-black/80">
+              Solicit feedback from clients and team members to continuously
+              improve your services and processes
+            </p>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }

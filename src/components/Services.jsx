@@ -8,7 +8,10 @@ import "../App.css";
 import "animate.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useNavigate } from "react-router-dom";
 const Services = () => {
+  const navigate = useNavigate();
+
   useEffect(() => {
     AOS.init({ duration: "1000" });
   }, []);
@@ -81,6 +84,7 @@ const Services = () => {
                   setHoveredIndex(null),
                   handleHover(setHover(false)),
                 ]}
+                onClick={() => navigate("/serviceDetails")}
               >
                 <div
                   className={`relative ${
