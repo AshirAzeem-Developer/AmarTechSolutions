@@ -213,8 +213,8 @@ const ServiceDetail = () => {
           <h1 className="text-3xl text-center font-bold text-black ">
             Why Choose Amar Tech for Software Development Services?
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 row-2 gap-4 items-center justify-center px-6 md:px-8 lg:px-20 pt-12">
-            <div className="bg-white   w-auto md:h-[300px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
+          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 row-2 gap-4 items-center justify-center px-6 md:px-8 lg:px-36 pt-12">
+            <div className="bg-white lg:w-[650px]  w-auto  md:h-[300px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
               <div className="flex flex-row p-4   ">
                 <img src={andriod} alt="imageHere" className="h-28  " />
                 <h2 className="text-black text-center text-4xl  font-medium md:px-8 lg:px-20 pt-4">
@@ -229,10 +229,10 @@ const ServiceDetail = () => {
                 designed with a user-centric approach.
               </p>
             </div>
-            <div className="bg-white w-auto md:h-[300px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
+            <div className="bg-white w-auto lg:w-[650px] md:h-[300px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
               <div className="flex flex-row p-4   ">
                 <img src={ios} alt="imageHere" className="h-28" />
-                <h2 className="text-black text-4xl text-center font-medium md:px-8  pt-4 ">
+                <h2 className="text-black text-4xl text-center font-medium md:px-8 lg:px-20 pt-4 ">
                   iOS App Development
                 </h2>
               </div>
@@ -243,7 +243,7 @@ const ServiceDetail = () => {
                 reach in no time.
               </p>
             </div>
-            <div className="bg-white w-auto md:h-[300px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
+            <div className="bg-white w-auto lg:w-[650px] md:h-[300px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
               <div className="flex flex-row p-4   ">
                 <img src={pwa} alt="imageHere" className="h-28" />
                 <h2 className="text-black text-4xl text-center font-medium md:px-8 lg:px-20 pt-4 ">
@@ -257,7 +257,7 @@ const ServiceDetail = () => {
                 run directly from the server.
               </p>
             </div>
-            <div className="bg-white md:h-[300px]  w-auto rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
+            <div className="bg-white md:h-[300px]  w-auto lg:w-[650px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
               <div className="flex flex-row p-4   ">
                 <img src={cross} alt="imageHere" className="h-28" />
                 <h2 className="text-black text-4xl text-center font-medium md:px-8  pt-4">
@@ -275,8 +275,8 @@ const ServiceDetail = () => {
         </div>
         {/* ====================== >>> Section 4 End Here <<<< ============================== */}
         {/* ====================== >>> Section 5 Starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] h-auto ">
-          <h1 className="text-4xl text-center  px-8 text-black font-semibold">
+        <div className="bg-[#D2D2DB] pt-12 h-auto ">
+          <h1 className="text-4xl text-center   text-black font-semibold">
             How Amartech Organize A Smooth Workflow For Their Clients?
           </h1>
           <div className="pt-8">
@@ -285,13 +285,13 @@ const ServiceDetail = () => {
         </div>
         {/* ====================== >>> Section 5 Ends Here <<<< ==============================
              {/* ====================== >>> Section 6 starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] pb-5 grid grid-col-1 justify-center">
-          <div className="bg-[#053F74]  rounded-3xl h-[250px] lg:h-[250px] w-auto flex flex-col items-center justify-center">
+        <div className="bg-[#D2D2DB]  pt-4 pb-5 grid grid-col-1 justify-center">
+          <div className="bg-[#053F74] w-auto rounded-3xl md:h-[250px] lg:h-[250px]  lg:w-[750px] flex flex-col items-center justify-center">
             <h1 className="text-5xl text-center text-[#D2D2DB] font-bold p-12">
               Want To Shape Your Business?
             </h1>
-            <div className="bg-[#D2D2DB] rounded-lg">
-              <button className="rounded-2xl md:w-a text-4xl p-2 flex flex-row items-center   text-[#FFFFFF]">
+            <div className="bg-[#D2D2DB] rounded-lg  ">
+              <button className="rounded-2xl pl-5 pt-2 text-2xl  flex flex-row text-[#FFFFFF]">
                 Start Conversation Now
                 <span>
                   <img src={arrow} alt="imageHere" className="w-14 pl-4" />
