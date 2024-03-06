@@ -35,7 +35,7 @@ export default function CustomizedTimeline() {
         {/* ========== >>>> Line 1 Ends <<<<< =========== */}
 
         <div className="  rounded-xl mx-10 p-6  grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4 ">
-          <div className="col-span-2">
+          <div className=" col-span-2">
             <img src={quality} alt="imageHere" className="h-auto w-44" />
           </div>
           <div className="col-span-2 w-32 h-auto mx-8 p-8 px-12 hidden sm:flex items-center justify-center bg-[#A7D7FA] rounded-full">
@@ -77,7 +77,7 @@ export default function CustomizedTimeline() {
         {/* <div className="w-[75%] h-64  border-l-8  border-dashed  relative -top-[480px] -right-6"></div> */}
         {/* ========== >>>> Line 3 Ends <<<<< =========== */}
         <div className="rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-1 ">
-          <div className="col-span-2 pr-12 ">
+          <div className="col-span-2 pr-12 max-sm:w-72 ">
             <img src={scale} alt="imageHere" className="h-auto w-44" />
           </div>
           <div className="col-span-2 w-32 h-auto mx-8 p-8 px-12 hidden sm:flex items-center justify-center bg-[#A7D7FA] rounded-full">

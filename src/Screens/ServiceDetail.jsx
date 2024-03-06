@@ -217,7 +217,7 @@ const ServiceDetail = () => {
             <div className="bg-white lg:w-[650px]  w-auto  md:h-[300px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
               <div className="flex flex-row p-4   ">
                 <img src={andriod} alt="imageHere" className="h-28  " />
-                <h2 className="text-black text-center text-4xl  font-medium md:px-8 lg:px-20 pt-4">
+                <h2 className="text-black text-center text-4xl max-sm:text-2xl  font-medium md:px-8 lg:px-20 pt-4">
                   Android App Development
                 </h2>
               </div>
@@ -232,7 +232,7 @@ const ServiceDetail = () => {
             <div className="bg-white w-auto lg:w-[650px] md:h-[300px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
               <div className="flex flex-row p-4   ">
                 <img src={ios} alt="imageHere" className="h-28" />
-                <h2 className="text-black text-4xl text-center font-medium md:px-8 lg:px-20 pt-4 ">
+                <h2 className="text-black max-sm:text-2xl text-4xl text-center font-medium md:px-8 lg:px-20 pt-4 ">
                   iOS App Development
                 </h2>
               </div>
@@ -246,7 +246,7 @@ const ServiceDetail = () => {
             <div className="bg-white w-auto lg:w-[650px] md:h-[300px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
               <div className="flex flex-row p-4   ">
                 <img src={pwa} alt="imageHere" className="h-28" />
-                <h2 className="text-black text-4xl text-center font-medium md:px-8 lg:px-20 pt-4 ">
+                <h2 className="text-black max-sm:text-2xl text-4xl text-center font-medium md:px-8 lg:px-20 pt-4 ">
                   Progressive Web Apps (PWAs)
                 </h2>
               </div>
@@ -260,7 +260,7 @@ const ServiceDetail = () => {
             <div className="bg-white md:h-[300px]  w-auto lg:w-[650px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
               <div className="flex flex-row p-4   ">
                 <img src={cross} alt="imageHere" className="h-28" />
-                <h2 className="text-black text-4xl text-center font-medium md:px-8  pt-4">
+                <h2 className="text-black max-sm:text-2xl text-4xl text-center font-medium md:px-8  pt-4">
                   Cross Platform Compatibility
                 </h2>
               </div>
@@ -286,12 +286,12 @@ const ServiceDetail = () => {
         {/* ====================== >>> Section 5 Ends Here <<<< ==============================
              {/* ====================== >>> Section 6 starts Here <<<< ============================== */}
         <div className="bg-[#D2D2DB]  pt-4 pb-5 grid grid-col-1 justify-center">
-          <div className="bg-[#053F74] w-auto rounded-3xl md:h-[250px] lg:h-[250px]  lg:w-[750px] flex flex-col items-center justify-center">
-            <h1 className="text-5xl text-center text-[#D2D2DB] font-bold p-12">
+          <div className="bg-[#053F74] max-sm:w-[350px] w-auto rounded-3xl md:h-[250px] lg:h-[250px] max-sm:h-44 lg:w-[750px]  flex flex-col items-center justify-center">
+            <h1 className="text-4xl max-sm:text-3xl text-center text-[#D2D2DB] font-bold pt-12 max-sm:pt-8">
               Want To Shape Your Business?
             </h1>
-            <div className="bg-[#D2D2DB] rounded-lg  ">
-              <button className="rounded-2xl pl-5 pt-2 text-2xl  flex flex-row text-[#FFFFFF]">
+            <div className=" max-sm:h-36 rounded-lg pt-8 max-sm:pt-4  ">
+              <button className=" bg-[#D2D2DB] rounded-2xl  pl-5  text-2xl max-sm:text-2xl   flex flex-row text-[#FFFFFF]">
                 Start Conversation Now
                 <span>
                   <img src={arrow} alt="imageHere" className="w-14 pl-4" />
