@@ -30,7 +30,7 @@ const ServiceDetail = () => {
         {/* ====================== >>> Section 1 Starts Here <<<< ============================== */}
         <div className="bg-[#D2D2DB] grid grid-rows-2 w-screen overflow-hidden">
           <video
-            src={BgVideo}
+            src={`${BgVideo}`}
             autoPlay
             loop
             muted
@@ -100,25 +100,25 @@ const ServiceDetail = () => {
               </h1>
             </div>
 
-            <div className="bg-white rounded-md w-full h-auto grid grid-cols-5  px-4 mt-6">
+            <div className="bg-white rounded-md w-full h-auto grid grid-cols-3 lg:grid-cols-5  px-4 mt-6">
               <div className="flex flex-col items-center justify-center">
-                <img src={Lang1} alt="ImageHere" className="h-2/4" />
+                <img src={Lang1} alt="ImageHere" className="h-1/3 lg:h-2/4" />
                 <h1 className="text-black text-xl font-bold">Java</h1>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <img src={Lang2} alt="ImageHere" className="h-2/4" />
+                <img src={Lang2} alt="ImageHere" className="h-1/3 lg:h-2/4" />
                 <h1 className="text-black text-xl font-bold">NodJs</h1>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <img src={Lang3} alt="ImageHere" className="h-2/4" />
+                <img src={Lang3} alt="ImageHere" className="h-1/3 lg:h-2/4" />
                 <h1 className="text-black text-xl font-bold">Python</h1>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <img src={Lang4} alt="ImageHere" className="h-2/4" />
+                <img src={Lang4} alt="ImageHere" className="h-1/3 lg:h-2/4" />
                 <h1 className="text-black text-xl font-bold">PHP</h1>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <img src={Lang5} alt="ImageHere" className="h-2/4" />
+                <img src={Lang5} alt="ImageHere" className="h-1/3 lg:h-2/4" />
                 <h1 className="text-black text-xl font-bold">C++</h1>
               </div>
             </div>
@@ -139,7 +139,7 @@ const ServiceDetail = () => {
             software development services.
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 items-center justify-center  mx-16">
-            <div className="bg-white rounded-lg h-[480px] sm:h-[450px]   lg:h-[600px] xl:h-[500px] w-full flex flex-col  items-center justify-center ">
+            <div className="bg-white rounded-lg h-[480px] sm:h-[450px]   lg:h-[600px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[350px] xl:w-[550px]  flex flex-col  items-center justify-center ">
               <div>
                 <img
                   src={Web}
@@ -163,7 +163,7 @@ const ServiceDetail = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white rounded-lg h-[480px] sm:h-[450px]  lg:h-[600px] xl:h-[500px] w-full flex flex-col items-center justify-center">
+            <div className="bg-white rounded-lg h-[480px] sm:h-[450px]  lg:h-[600px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[350px] xl:w-[550px] flex flex-col items-center justify-center">
               <div>
                 <img
                   src={MAD}
@@ -183,7 +183,7 @@ const ServiceDetail = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white rounded-lg h-[480px] sm:h-[450px]  lg:h-[600px] xl:h-[500px] w-full flex flex-col  items-center justify-center">
+            <div className="bg-white rounded-lg h-[480px] sm:h-[450px]  lg:h-[600px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[350px] xl:w-[550px] flex flex-col  items-center justify-center">
               <div className="flex flex-col items-center justify-center">
                 <img
                   src={UiUx}
@@ -213,58 +213,58 @@ const ServiceDetail = () => {
           <h1 className="text-3xl text-center font-bold text-black ">
             Why Choose Amar Tech for Software Development Services?
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 row-2 gap-4 items-center justify-center px-6 md:px-8 lg:px-36 pt-12">
-            <div className="bg-white lg:w-[650px]  w-auto  md:h-[300px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
-              <div className="flex flex-row p-4   ">
-                <img src={andriod} alt="imageHere" className="h-28  " />
-                <h2 className="text-black text-center text-4xl max-sm:text-2xl  font-medium md:px-8 lg:px-20 pt-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2  gap-8   items-center justify-center px-6 md:px-8 lg:px-36 pt-12">
+            <div className="bg-white h-[300px] md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
+              <div className="flex flex-row p-4 items-center justify-around  ">
+                <img src={andriod} alt="imageHere" className="h-24  " />
+                <h2 className="text-black  text-xl sm:text-xl md:text-2xl text-center font-bold md:px-8  pt-4">
                   Android App Development
                 </h2>
               </div>
 
-              <p className="text-black font-medium text-2xl text-justify px-4 pt-3 content-center">
+              <p className="text-black font-medium text-md text-justify px-4 pt-3 content-center">
                 We use Kotlin and Java technologies; our Android app developers
                 build apps that work pretty well on all Android devices. From
                 design to development, every feature of the app is meticulously
                 designed with a user-centric approach.
               </p>
             </div>
-            <div className="bg-white w-auto lg:w-[650px] md:h-[300px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
-              <div className="flex flex-row p-4   ">
-                <img src={ios} alt="imageHere" className="h-28" />
-                <h2 className="text-black max-sm:text-2xl text-4xl text-center font-medium md:px-8 lg:px-20 pt-4 ">
+            <div className="bg-white h-[300px]  md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
+              <div className="flex flex-row p-4   items-center justify-around ">
+                <img src={ios} alt="imageHere" className="h-24" />
+                <h2 className="text-black text-xl sm:text-xl md:text-2xl text-center font-medium md:px-8  pt-4">
                   iOS App Development
                 </h2>
               </div>
-              <p className="text-black font-medium text-2xl text-justify px-4 pt-3 content-center">
+              <p className="text-black font-medium text-md text-justify px-4 pt-3 content-center">
                 Whether it’s the latest iPhone, iPad, or Apple watch, our iOS
                 app developers know how to create robust iOS apps from Object C
                 and Swift. With a professional iOS app, you’ll increase your
                 reach in no time.
               </p>
             </div>
-            <div className="bg-white w-auto lg:w-[650px] md:h-[300px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
-              <div className="flex flex-row p-4   ">
-                <img src={pwa} alt="imageHere" className="h-28" />
-                <h2 className="text-black max-sm:text-2xl text-4xl text-center font-medium md:px-8 lg:px-20 pt-4 ">
+            <div className="bg-white h-[300px]  md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
+              <div className="flex flex-row p-4  items-center justify-around  ">
+                <img src={pwa} alt="imageHere" className="h-24" />
+                <h2 className="text-black text-xl sm:text-xl md:text-2xl text-center font-medium md:px-8  pt-4">
                   Progressive Web Apps (PWAs)
                 </h2>
               </div>
-              <p className="text-black font-medium text-2xl text-justify px-4 pt-3 content-center">
+              <p className="text-black font-medium text-md text-justify px-4 pt-3 content-center">
                 Our mobile app developers have the expertise to design and
                 develop Progressive Web Apps (PWAs) that will enhance your
                 offline functionality. No download necessary; these apps will
                 run directly from the server.
               </p>
             </div>
-            <div className="bg-white md:h-[300px]  w-auto lg:w-[650px] rounded-3xl sm:h-[400px] lg:h-[350px] items-center justify-center">
-              <div className="flex flex-row p-4   ">
-                <img src={cross} alt="imageHere" className="h-28" />
-                <h2 className="text-black max-sm:text-2xl text-4xl text-center font-medium md:px-8  pt-4">
+            <div className="bg-white h-[300px]  md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
+              <div className="flex flex-row p-4 items-center justify-around   ">
+                <img src={cross} alt="imageHere" className="h-24" />
+                <h2 className="text-black text-xl sm:text-xl md:text-2xl text-center font-medium md:px-8  pt-4">
                   Cross Platform Compatibility
                 </h2>
               </div>
-              <p className="text-black font-medium text-2xl text-justify px-4 pt-3 content-center">
+              <p className="text-black font-medium text-md text-justify px-4 pt-3 content-center">
                 The core focus of our UI/UX design is the principles that are
                 tested and tried by dozens of clients. By designing and
                 delivering responsive and cross-platform compatible designs, we
