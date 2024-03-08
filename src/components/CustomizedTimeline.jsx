@@ -20,7 +20,7 @@ export default function CustomizedTimeline() {
             <h1 className="text-6xl">1</h1>
           </div>
           <div className="sm:col-span-8 col-span-3">
-            <h1 className="text-4xl my-2 maven-pro-bold text-black ">
+            <h1 className="text-4xl my-2 maven-pro-bold text-black maven-pro-bold">
               Team Expertise
             </h1>
             <p className="text-xl maven-pro-regular text-black/80  ">
@@ -42,7 +42,7 @@ export default function CustomizedTimeline() {
             <h1 className="text-6xl ">2</h1>
           </div>
           <div className="col-span-8">
-            <h1 className="text-4xl my-2 maven-pro-bold text-black">
+            <h1 className="text-4xl my-2 maven-pro-bold text-black ">
               Quality Assurance
             </h1>
             <p className="text-xl maven-pro-regular text-black/80">

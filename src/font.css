@@ -2,3 +2,11 @@
     font-family: 'BankGothic';
     src: local('BankGothic'), url('./fonts/DEMO-bgt45.otf');
 }
+@font-face {
+    font-family: 'FuturaHeavy';
+    src: local('FuturaHeavy'), url('./fonts/Futura\ Heavy.otf');
+}
+@font-face {
+    font-family: 'FuturaBook';
+    src: local('FuturaBook'), url('./fonts/Futura\ Book.otf');
+}

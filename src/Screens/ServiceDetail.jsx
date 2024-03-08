@@ -86,7 +86,7 @@ const ServiceDetail = () => {
         {/* ====================== >>> Section 2 Starts Here <<<< ============================== */}
 
         <div
-          className="bg-[#D2D2DB] relative top-[550px] grid lg:grid-cols-12 gap-8 px-14 items-center justify-center py-8 w-screen overflow-hidden"
+          className="bg-[#D2D2DB] relative top-[700px] grid lg:grid-cols-12 gap-8 px-14 items-center justify-center py-8 w-screen overflow-hidden"
           style={{
             backgroundImage: `url(${BgImage2})`,
             backgroundPosition: "center",
@@ -126,23 +126,33 @@ const ServiceDetail = () => {
             <div className="bg-white rounded-md w-full h-auto grid grid-cols-3 lg:grid-cols-5  px-4 mt-6">
               <div className="flex flex-col items-center justify-center">
                 <img src={Lang1} alt="ImageHere" className="h-1/3 lg:h-2/4" />
-                <h1 className="text-black text-xl font-bold">Java</h1>
+                <h1 className="text-black text-xl font-bold futura_book">
+                  Java
+                </h1>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img src={Lang2} alt="ImageHere" className="h-1/3 lg:h-2/4" />
-                <h1 className="text-black text-xl font-bold">NodJs</h1>
+                <h1 className="text-black text-xl font-bold futura_book">
+                  NodJs
+                </h1>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img src={Lang3} alt="ImageHere" className="h-1/3 lg:h-2/4" />
-                <h1 className="text-black text-xl font-bold">Python</h1>
+                <h1 className="text-black text-xl font-bold futura_book">
+                  Python
+                </h1>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img src={Lang4} alt="ImageHere" className="h-1/3 lg:h-2/4" />
-                <h1 className="text-black text-xl font-bold">PHP</h1>
+                <h1 className="text-black text-xl font-bold futura_book">
+                  PHP
+                </h1>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img src={Lang5} alt="ImageHere" className="h-1/3 lg:h-2/4" />
-                <h1 className="text-black text-xl font-bold">C++</h1>
+                <h1 className="text-black text-xl font-bold futura_book">
+                  C++
+                </h1>
               </div>
             </div>
           </div>
@@ -151,18 +161,18 @@ const ServiceDetail = () => {
         {/* ====================== >>> Section 2 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 3 Starts Here <<<< ============================== */}
 
-        <div className="bg-[#D2D2DB] relative top-[550px]  h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center">
-          <h1 className=" text-3xl py-2 lg:text-4xl px-8 text-black font-semibold">
+        <div className="bg-[#D2D2DB] relative top-[700px]  h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center">
+          <h1 className=" text-3xl py-2 lg:text-4xl px-8 text-black font-semibold futura_heavy">
             Transforming Businesses through Smart Software Solutions and
             Committed Development Teams.
           </h1>
-          <h3 className="text-black text-lg lg:text-2xl px-8 my-4 py-2">
+          <h3 className="text-black text-lg lg:text-2xl px-8 my-4 py-2 futura_book ">
             Our team at Amar Tech has skilled and data driven software
             developers which aim to create long-term value with our excellent
             software development services.
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 items-center justify-center  mx-16">
-            <div className="bg-white rounded-lg h-[480px] sm:h-[450px]   lg:h-[600px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[350px] xl:w-[400px]  flex flex-col  items-center justify-center ">
+            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]   lg:h-[600px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[350px] xl:w-[400px]  flex flex-col  items-center justify-center ">
               <div>
                 <img
                   src={Web}
@@ -171,12 +181,12 @@ const ServiceDetail = () => {
                 />
               </div>
               <div>
-                <h2 className="text-black text-xl font-bold my-3 ">
+                <h2 className="text-black text-xl font-bold my-3 maven-pro-bold">
                   Web Application Development
                 </h2>
               </div>
               <div>
-                <p className="text-black  text-justify text-sm px-10 content-center">
+                <p className="text-black  text-justify text-sm px-10 content-center maven-pro-regular">
                   Our web application development services make it easier to
                   create, update, and maintain software applications that run on
                   the web. By working with Amar Tech, you can speed up the
@@ -186,7 +196,7 @@ const ServiceDetail = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white rounded-lg h-[480px] sm:h-[450px]  lg:h-[600px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[350px] xl:w-[400px] flex flex-col items-center justify-center">
+            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]  lg:h-[600px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[350px] xl:w-[400px] flex flex-col items-center justify-center">
               <div>
                 <img
                   src={MAD}
@@ -195,10 +205,10 @@ const ServiceDetail = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h2 className="text-black text-xl font-bold my-3 ">
+                <h2 className="text-black text-xl font-bold my-3 maven-pro-bold">
                   Mobile Application Development
                 </h2>
-                <p className="text-black  text-justify text-sm px-10 content-center">
+                <p className="text-black  text-justify text-sm px-10 content-center maven-pro-regular">
                   Amar Tech designs highly practical, technologically
                   transformational, featurerich native mobile apps for consumers
                   and enterprises. We'll oversee mobile app development from
@@ -206,7 +216,7 @@ const ServiceDetail = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white rounded-lg h-[480px] sm:h-[450px]  lg:h-[600px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[350px] xl:w-[400px] flex flex-col  items-center justify-center">
+            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]  lg:h-[600px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[350px] xl:w-[400px] flex flex-col  items-center justify-center">
               <div className="flex flex-col items-center justify-center">
                 <img
                   src={UiUx}
@@ -215,10 +225,10 @@ const ServiceDetail = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h2 className="text-black text-2xl font-bold my-3 ">
+                <h2 className="text-black text-2xl font-bold my-3 maven-pro-bold">
                   UI/UX Design
                 </h2>
-                <p className="text-black text-justify text-sm px-10 content-center">
+                <p className="text-black text-justify text-sm px-10 content-center maven-pro-regular">
                   With our exceptional UI/UX design services, we help you show
                   off your brand's finest and exceed user expectations. Let’s
                   collaborate to establish long-term customer retention
@@ -232,62 +242,62 @@ const ServiceDetail = () => {
 
         {/* ====================== >>> Section 3 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 4 Starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] relative top-[550px]  h-auto   justify-center w-screen overflow-hidden py-24">
-          <h1 className="text-3xl text-center font-bold text-black ">
+        <div className="bg-[#D2D2DB] relative top-[700px]  h-auto   justify-center w-screen overflow-hidden py-24">
+          <h1 className="text-3xl text-center font-bold text-black  futura_heavy">
             Why Choose Amar Tech for Software Development Services?
           </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2  gap-8   items-center justify-center px-6 md:px-8 lg:px-36 pt-12">
-            <div className="bg-white h-[330px] md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
+            <div className="bg-[#F4F4F4] drop-shadow-xl h-[330px] md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
               <div className="flex flex-row p-4 items-center justify-around  ">
                 <img src={andriod} alt="imageHere" className="h-24  " />
-                <h2 className="text-black  text-xl sm:text-xl md:text-2xl text-center font-bold md:px-8  pt-4">
+                <h2 className="text-black  text-xl sm:text-xl md:text-2xl text-center  md:px-8  pt-4 maven-pro-medium">
                   Android App Development
                 </h2>
               </div>
 
-              <p className="text-black font-medium text-md text-justify px-4 pt-3 content-center">
+              <p className="text-black font-medium text-md text-justify px-4 pt-3 content-center maven-pro-regular">
                 We use Kotlin and Java technologies; our Android app developers
                 build apps that work pretty well on all Android devices. From
                 design to development, every feature of the app is meticulously
                 designed with a user-centric approach.
               </p>
             </div>
-            <div className="bg-white h-[330px]  md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
+            <div className="bg-[#F4F4F4] drop-shadow-xl h-[330px]  md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
               <div className="flex flex-row p-4   items-center justify-around ">
                 <img src={ios} alt="imageHere" className="h-24" />
-                <h2 className="text-black text-xl sm:text-xl md:text-2xl text-center font-medium md:px-8  pt-4">
+                <h2 className="text-black text-xl sm:text-xl md:text-2xl text-center font-medium md:px-8  pt-4 maven-pro-medium">
                   iOS App Development
                 </h2>
               </div>
-              <p className="text-black font-medium text-md text-justify px-4 pt-3 content-center">
+              <p className="text-black font-medium text-md text-justify px-4 pt-3 content-center maven-pro-regular">
                 Whether it’s the latest iPhone, iPad, or Apple watch, our iOS
                 app developers know how to create robust iOS apps from Object C
                 and Swift. With a professional iOS app, you’ll increase your
                 reach in no time.
               </p>
             </div>
-            <div className="bg-white h-[330px]  md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
+            <div className="bg-[#F4F4F4] drop-shadow-xl h-[330px]  md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
               <div className="flex flex-row p-4  items-center justify-around  ">
                 <img src={pwa} alt="imageHere" className="h-24" />
-                <h2 className="text-black text-xl sm:text-xl md:text-2xl text-center font-medium md:px-8  pt-4">
+                <h2 className="text-black text-xl sm:text-xl md:text-2xl text-center font-medium md:px-8  pt-4 maven-pro-medium">
                   Progressive Web Apps (PWAs)
                 </h2>
               </div>
-              <p className="text-black font-medium text-md text-justify px-4 pt-3 content-center">
+              <p className="text-black font-medium text-md text-justify px-4 pt-3 content-center maven-pro-regular">
                 Our mobile app developers have the expertise to design and
                 develop Progressive Web Apps (PWAs) that will enhance your
                 offline functionality. No download necessary; these apps will
                 run directly from the server.
               </p>
             </div>
-            <div className="bg-white h-[330px]  md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
+            <div className="bg-[#F4F4F4] drop-shadow-xl h-[330px]  md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
               <div className="flex flex-row p-4 items-center justify-around   ">
                 <img src={cross} alt="imageHere" className="h-24" />
-                <h2 className="text-black text-xl sm:text-xl md:text-2xl text-center font-medium md:px-8  pt-4">
+                <h2 className="text-black text-xl sm:text-xl md:text-2xl text-center font-medium md:px-8  pt-4 maven-pro-medium">
                   Cross Platform Compatibility
                 </h2>
               </div>
-              <p className="text-black font-medium text-md text-justify px-4 pt-3 content-center">
+              <p className="text-black font-medium text-md text-justify px-4 pt-3 content-center maven-pro-regular">
                 The core focus of our UI/UX design is the principles that are
                 tested and tried by dozens of clients. By designing and
                 delivering responsive and cross-platform compatible designs, we
@@ -298,8 +308,8 @@ const ServiceDetail = () => {
         </div>
         {/* ====================== >>> Section 4 End Here <<<< ============================== */}
         {/* ====================== >>> Section 5 Starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] pt-12 relative top-[550px]  h-auto  py-12">
-          <h1 className="text-4xl text-center   text-black font-semibold">
+        <div className="bg-[#D2D2DB] pt-12 relative top-[700px]  h-auto  py-12">
+          <h1 className="text-4xl text-center   text-black font-semibold  futura_heavy">
             How Amartech Organize A Smooth Workflow For Their Clients?
           </h1>
           <div className="pt-8">
@@ -308,13 +318,13 @@ const ServiceDetail = () => {
         </div>
         {/* ====================== >>> Section 5 Ends Here <<<< ==============================
              {/* ====================== >>> Section 6 starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] relative top-[550px]  pt-4 pb-5 grid grid-col-1 justify-center">
+        <div className="bg-[#D2D2DB] relative top-[700px]  pt-4 pb-5 grid grid-col-1 justify-center">
           <div className="bg-[#053F74] w-auto xl:w-[750px] rounded-3xl p-4  flex flex-col items-center justify-center mx-6">
-            <h1 className="text-4xl max-sm:text-3xl text-center text-[#D2D2DB] font-bold pt-12 max-sm:pt-8">
+            <h1 className="text-4xl max-sm:text-3xl text-center text-[#D2D2DB] font-bold pt-12 max-sm:pt-8 maven-pro-regular ">
               Want To Shape Your Business?
             </h1>
             <div className=" max-sm:h-36 rounded-md pt-8 max-sm:pt-4    ">
-              <button className=" bg-[#d2d2db]  p-4 rounded-2xl  pl-5  text-2xl max-sm:text-2xl   flex flex-row text-[#FFFFFF]">
+              <button className=" bg-[#d2d2db]  p-4 rounded-2xl  pl-5  text-2xl max-sm:text-2xl   flex flex-row text-[#FFFFFF] tomorrow-regular">
                 Start Conversation Now
                 <span>
                   <img src={arrow} alt="imageHere" className="w-14 pl-4" />
@@ -325,7 +335,7 @@ const ServiceDetail = () => {
         </div>
 
         {/* ====================== >>> Section 6 Ends Here <<<< ============================== */}
-        <div className=" bg-[#053F74] relative top-[550px]  p-4 w-100  h-auto mx-auto   mySubContainerClass">
+        <div className=" bg-[#053F74] relative top-[700px]  p-4 w-100  h-auto mx-auto   mySubContainerClass">
           <MainFooter />
         </div>
       </div>

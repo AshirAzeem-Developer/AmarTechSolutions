@@ -8,6 +8,7 @@ import { Phone } from "lucide-react";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -19,26 +20,26 @@ const AMNAvbar = () => {
   const navigation = [
     {
       name: "Home",
-      href: "#home",
+      href: "/",
       scrollName: "home",
       current: true,
     },
     {
       name: "AboutUs",
-      href: "#aboutus",
+      href: "/",
       scrollName: "aboutus",
       current: false,
     },
     {
       name: "Services ",
-      href: "#services",
+      href: "/",
       scrollName: "services",
 
       current: false,
     },
     {
       name: "Blogs",
-      href: "#blogs",
+      href: "/",
       scrollName: "blogs",
 
       current: false,
@@ -96,9 +97,10 @@ const AMNAvbar = () => {
                   <div className="hidden sm:flex flex-grow justify-center items-center lg:mx-12">
                     <div className="flex space-x-2 l:space-x-4 md:justify-center">
                       {navigation.map((item) => (
-                        <a
+                        <Link
+                          to={item.href}
                           key={item.name}
-                          href={item.href}
+                          // href={item.href}
                           className={classNames(
                             item.current
                               ? `${scroll ? "text-white" : "text-white"}`
@@ -112,7 +114,7 @@ const AMNAvbar = () => {
                           aria-current={item.current ? "page" : undefined}
                         >
                           {item.name}
-                        </a>
+                        </Link>
                       ))}
                     </div>
                   </div>
