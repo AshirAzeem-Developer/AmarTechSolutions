@@ -128,7 +128,7 @@ const ServiceDetail = () => {
         {/* ====================== >>> Section 2 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 3 Starts Here <<<< ============================== */}
 
-        <div className="bg-[#D2D2DB] h-auto py-10 w-screen overflow-hidden ">
+        <div className="bg-[#D2D2DB] h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center">
           <h1 className=" text-3xl py-2 lg:text-4xl px-8 text-black font-semibold">
             Transforming Businesses through Smart Software Solutions and
             Committed Development Teams.
@@ -139,7 +139,7 @@ const ServiceDetail = () => {
             software development services.
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 items-center justify-center  mx-16">
-            <div className="bg-white rounded-lg h-[480px] sm:h-[450px]   lg:h-[600px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[350px] xl:w-[550px]  flex flex-col  items-center justify-center ">
+            <div className="bg-white rounded-lg h-[480px] sm:h-[450px]   lg:h-[600px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[350px] xl:w-[400px]  flex flex-col  items-center justify-center ">
               <div>
                 <img
                   src={Web}
@@ -163,7 +163,7 @@ const ServiceDetail = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white rounded-lg h-[480px] sm:h-[450px]  lg:h-[600px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[350px] xl:w-[550px] flex flex-col items-center justify-center">
+            <div className="bg-white rounded-lg h-[480px] sm:h-[450px]  lg:h-[600px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[350px] xl:w-[400px] flex flex-col items-center justify-center">
               <div>
                 <img
                   src={MAD}
@@ -183,7 +183,7 @@ const ServiceDetail = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white rounded-lg h-[480px] sm:h-[450px]  lg:h-[600px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[350px] xl:w-[550px] flex flex-col  items-center justify-center">
+            <div className="bg-white rounded-lg h-[480px] sm:h-[450px]  lg:h-[600px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[350px] xl:w-[400px] flex flex-col  items-center justify-center">
               <div className="flex flex-col items-center justify-center">
                 <img
                   src={UiUx}
@@ -209,12 +209,12 @@ const ServiceDetail = () => {
 
         {/* ====================== >>> Section 3 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 4 Starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] h-auto  py-10 justify-center w-screen overflow-hidden">
+        <div className="bg-[#D2D2DB] h-auto   justify-center w-screen overflow-hidden py-24">
           <h1 className="text-3xl text-center font-bold text-black ">
             Why Choose Amar Tech for Software Development Services?
           </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2  gap-8   items-center justify-center px-6 md:px-8 lg:px-36 pt-12">
-            <div className="bg-white h-[300px] md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
+            <div className="bg-white h-[330px] md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
               <div className="flex flex-row p-4 items-center justify-around  ">
                 <img src={andriod} alt="imageHere" className="h-24  " />
                 <h2 className="text-black  text-xl sm:text-xl md:text-2xl text-center font-bold md:px-8  pt-4">
@@ -229,7 +229,7 @@ const ServiceDetail = () => {
                 designed with a user-centric approach.
               </p>
             </div>
-            <div className="bg-white h-[300px]  md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
+            <div className="bg-white h-[330px]  md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
               <div className="flex flex-row p-4   items-center justify-around ">
                 <img src={ios} alt="imageHere" className="h-24" />
                 <h2 className="text-black text-xl sm:text-xl md:text-2xl text-center font-medium md:px-8  pt-4">
@@ -243,7 +243,7 @@ const ServiceDetail = () => {
                 reach in no time.
               </p>
             </div>
-            <div className="bg-white h-[300px]  md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
+            <div className="bg-white h-[330px]  md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
               <div className="flex flex-row p-4  items-center justify-around  ">
                 <img src={pwa} alt="imageHere" className="h-24" />
                 <h2 className="text-black text-xl sm:text-xl md:text-2xl text-center font-medium md:px-8  pt-4">
@@ -257,7 +257,7 @@ const ServiceDetail = () => {
                 run directly from the server.
               </p>
             </div>
-            <div className="bg-white h-[300px]  md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
+            <div className="bg-white h-[330px]  md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
               <div className="flex flex-row p-4 items-center justify-around   ">
                 <img src={cross} alt="imageHere" className="h-24" />
                 <h2 className="text-black text-xl sm:text-xl md:text-2xl text-center font-medium md:px-8  pt-4">
@@ -275,7 +275,7 @@ const ServiceDetail = () => {
         </div>
         {/* ====================== >>> Section 4 End Here <<<< ============================== */}
         {/* ====================== >>> Section 5 Starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] pt-12 h-auto ">
+        <div className="bg-[#D2D2DB] pt-12 h-auto  py-12">
           <h1 className="text-4xl text-center   text-black font-semibold">
             How Amartech Organize A Smooth Workflow For Their Clients?
           </h1>
@@ -290,8 +290,8 @@ const ServiceDetail = () => {
             <h1 className="text-4xl max-sm:text-3xl text-center text-[#D2D2DB] font-bold pt-12 max-sm:pt-8">
               Want To Shape Your Business?
             </h1>
-            <div className=" max-sm:h-36 rounded-lg pt-8 max-sm:pt-4  ">
-              <button className=" bg-[#D2D2DB] rounded-2xl  pl-5  text-2xl max-sm:text-2xl   flex flex-row text-[#FFFFFF]">
+            <div className=" max-sm:h-36 rounded-md pt-8 max-sm:pt-4    ">
+              <button className=" bg-[#d2d2db]  p-4 rounded-2xl  pl-5  text-2xl max-sm:text-2xl   flex flex-row text-[#FFFFFF]">
                 Start Conversation Now
                 <span>
                   <img src={arrow} alt="imageHere" className="w-14 pl-4" />
