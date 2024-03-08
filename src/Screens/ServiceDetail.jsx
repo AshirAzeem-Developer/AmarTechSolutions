@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import BgVideo from "../assets/Backend/Video/Backend.mp4";
 import BgImage from "../assets/Backend/PNGFilesOfElements/Bg1.png";
 import BgImage2 from "../assets/Backend/PNGFilesOfElements/Bg2.png";
@@ -22,40 +22,63 @@ import arrow from "../assets/Backend/Icons/arrow.png";
 
 import MainFooter from "../components/MainFooter";
 import LeftAlignedTimeline from "../components/CustomizedTimeline";
+import AMNavbar from "../components/AMNAvbar";
 
 const ServiceDetail = () => {
+  const [scroll, setScroll] = useState(false);
+
+  const handleScroll = () => {
+    let scrollValue = document.documentElement.scrollTop;
+    if (scrollValue > 500) {
+      setScroll(true);
+      // console.log(scrollValue);
+    } else {
+      setScroll(false);
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll);
   return (
     <>
-      <div className="bg-[#D2D2DB] w-screen h-screen">
+      <div className="bg-[#D2D2DB] ">
         {/* ====================== >>> Section 1 Starts Here <<<< ============================== */}
         <div className="bg-[#D2D2DB] grid grid-rows-2 w-screen overflow-hidden">
-          <video
-            src={`${BgVideo}`}
-            autoPlay
-            loop
-            muted
-            className=" object-cover h-[70vh] w-full row-span-10 "
-          ></video>
-          <div className="w-screen h-auto row-span-2">
-            <div className=" relative -top-14  lg:-top-[192px] xl:-top-24">
-              <h1 className="text-black font-extrabold mx-4 text-5xl lg:text-8xl px-2">
-                Backend
-              </h1>
-              <h1
-                className=" text-white font-bold mx-4 text-5xl lg:text-8xl  h-[10vh] px-"
-                style={{
-                  backgroundImage: `url(${BgImage})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-              >
-                Development
-              </h1>
-              <p className="text-black font-bold pt-12 text-2xl px-8">
-                Crafting high-quality software solutions that support growth
-                strategies which involves redefining the architecture of your
-                software with superior backend development services.
-              </p>
+          <div
+            className={`sticky top-0  z-10  ${
+              scroll ? " bg-[#0000005a]" : "bg-transparent"
+            }`}
+          >
+            <AMNavbar />
+          </div>
+          <div className="absolute top-0 left-0">
+            <video
+              src={`${BgVideo}`}
+              autoPlay
+              loop
+              muted
+              className=" object-cover h-[70vh] w-full row-span-10 "
+            ></video>
+            <div className="w-screen h-auto row-span-2">
+              <div className=" relative -top-14  lg:-top-[192px] xl:-top-24">
+                <h1 className="text-black font-extrabold mx-4 text-5xl lg:text-8xl px-2">
+                  Backend
+                </h1>
+                <h1
+                  className=" text-white font-bold mx-4 text-5xl lg:text-8xl  h-[10vh] px-"
+                  style={{
+                    backgroundImage: `url(${BgImage})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                >
+                  Development
+                </h1>
+                <p className="text-black font-bold pt-12 text-2xl px-8">
+                  Crafting high-quality software solutions that support growth
+                  strategies which involves redefining the architecture of your
+                  software with superior backend development services.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -63,7 +86,7 @@ const ServiceDetail = () => {
         {/* ====================== >>> Section 2 Starts Here <<<< ============================== */}
 
         <div
-          className="bg-[#D2D2DB] grid lg:grid-cols-12 gap-8 px-14 items-center justify-center py-8 w-screen overflow-hidden"
+          className="bg-[#D2D2DB] relative top-[550px] grid lg:grid-cols-12 gap-8 px-14 items-center justify-center py-8 w-screen overflow-hidden"
           style={{
             backgroundImage: `url(${BgImage2})`,
             backgroundPosition: "center",
@@ -128,7 +151,7 @@ const ServiceDetail = () => {
         {/* ====================== >>> Section 2 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 3 Starts Here <<<< ============================== */}
 
-        <div className="bg-[#D2D2DB] h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center">
+        <div className="bg-[#D2D2DB] relative top-[550px]  h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center">
           <h1 className=" text-3xl py-2 lg:text-4xl px-8 text-black font-semibold">
             Transforming Businesses through Smart Software Solutions and
             Committed Development Teams.
@@ -209,7 +232,7 @@ const ServiceDetail = () => {
 
         {/* ====================== >>> Section 3 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 4 Starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] h-auto   justify-center w-screen overflow-hidden py-24">
+        <div className="bg-[#D2D2DB] relative top-[550px]  h-auto   justify-center w-screen overflow-hidden py-24">
           <h1 className="text-3xl text-center font-bold text-black ">
             Why Choose Amar Tech for Software Development Services?
           </h1>
@@ -275,7 +298,7 @@ const ServiceDetail = () => {
         </div>
         {/* ====================== >>> Section 4 End Here <<<< ============================== */}
         {/* ====================== >>> Section 5 Starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] pt-12 h-auto  py-12">
+        <div className="bg-[#D2D2DB] pt-12 relative top-[550px]  h-auto  py-12">
           <h1 className="text-4xl text-center   text-black font-semibold">
             How Amartech Organize A Smooth Workflow For Their Clients?
           </h1>
@@ -285,8 +308,8 @@ const ServiceDetail = () => {
         </div>
         {/* ====================== >>> Section 5 Ends Here <<<< ==============================
              {/* ====================== >>> Section 6 starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB]  pt-4 pb-5 grid grid-col-1 justify-center">
-          <div className="bg-[#053F74] max-sm:w-[350px] w-auto rounded-3xl md:h-[250px] lg:h-[250px] max-sm:h-44 lg:w-[750px]  flex flex-col items-center justify-center">
+        <div className="bg-[#D2D2DB] relative top-[550px]  pt-4 pb-5 grid grid-col-1 justify-center">
+          <div className="bg-[#053F74] w-auto xl:w-[750px] rounded-3xl p-4  flex flex-col items-center justify-center mx-6">
             <h1 className="text-4xl max-sm:text-3xl text-center text-[#D2D2DB] font-bold pt-12 max-sm:pt-8">
               Want To Shape Your Business?
             </h1>
@@ -302,7 +325,7 @@ const ServiceDetail = () => {
         </div>
 
         {/* ====================== >>> Section 6 Ends Here <<<< ============================== */}
-        <div className=" bg-[#053F74] p-4 w-100  h-auto mx-auto   mySubContainerClass">
+        <div className=" bg-[#053F74] relative top-[550px]  p-4 w-100  h-auto mx-auto   mySubContainerClass">
           <MainFooter />
         </div>
       </div>
