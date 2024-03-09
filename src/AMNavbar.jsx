@@ -182,35 +182,27 @@ const AMNavbar = () => {
         muted
         className="relative -top-[5.8rem] m-0 left-0 section1"
       ></video>
+      <div id="home" className="absolute top-[12%]  left-0  w-full h-screen">
+        <div className="h-screen w-full flex flex-col  items-start justify-around px-8 lg:px-24">
+          <div>
+            <h2
+              className="text-3xl headerFont sm:text-4xl md:text-5xl font-bold text-white"
+              data-aos="flip-down"
+            >
+              TRANSCENDING IDEAS
+            </h2>
+            <h2
+              className="text-white headerFont text-xl xl:text-2xl lg:text-xl"
+              data-aos="zoom-in"
+            >
+              To Transform Future with Digital Tech Solutions
+            </h2>
+          </div>
 
-      <div
-        id="home"
-        className={`absolute top-10 left-0 items-center justify-center`}
-      >
-        <div className="container  flex flex-col items-center justify-center">
-          <div className="h-[100%]  w-full  flex flex-col  ">
-            <div className="flex flex-col   sm:ml-32 mt-52  sm:mt-36 flex-grow lg:mt-48 mx-4">
-              <h2
-                className="text-3xl headerFont  sm:text-4xl md:text-5xl font-bold  text-white "
-                data-aos="flip-down"
-              >
-                TRANSCENDING IDEAS
-              </h2>
-              <div className="pt-4 sm:pt-6">
-                <h2
-                  className=" text-white headerFont  text-xl sm:text-2xl  "
-                  data-aos="zoom-in"
-                >
-                  To Transform Future with Digital Tech Solutions
-                </h2>
-              </div>
-              {/* Previously sm:pt-24 thi padding*/}
-              <div className="pt-4  lg:pt-36 mt-24 text-center md:mt-16 lg:mt-8 xl:mt-24 relative lg:left-1/3 xl:left-1/2 ">
-                <button className=" text-white bg-[#71bfe871] rounded top- text-lg sm:text-2xl px-6 sm:px-8 py-3 sm:py-4  font-bold">
-                  <a href="#services">EXPLORE</a>
-                </button>
-              </div>
-            </div>
+          <div className="flex flex-col  items-center justify-center w-full ">
+            <button className="text-white bg-[#71bfe871] rounded text-lg sm:text-2xl px-6 sm:px-6 py-3 sm:py-3 font-bold">
+              <a href="#services">EXPLORE</a>
+            </button>
           </div>
         </div>
       </div>
