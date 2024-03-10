@@ -74,13 +74,13 @@ const ATCarousel = () => {
           return (
             <SwiperSlide
               key={d.name}
-              className="text-black flex flex-col items-center justify-start  px-14 py-4 "
+              className="text-black flex flex-col items-center  justify-start max-sm:px-2   px-12 py-4 "
             >
               <div
                 key={d.name}
                 className="text-black flex flex-col  px-4  py-4"
               >
-                <div className=" bg-[#053F74]  p-8  rounded-3xl h-auto md:h-[255px] py-5">
+                <div className=" bg-[#053F74] max-sm:w-[250px] lg:w-[280px] max-sm:p-2  rounded-3xl h-auto md:h-[255px] py-5">
                   <div className="flex flex-col md:flex-row items-center justify-start ">
                     <img
                       src={d.img}
@@ -93,7 +93,7 @@ const ATCarousel = () => {
                     </div>
                   </div>
 
-                  <div className="flex flex-col items-center justify-center  p-2">
+                  <div className="flex flex-col items-center justify-center  p-4">
                     <p className="text-balance text-md ">{d.review}</p>
                   </div>
                 </div>
