@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import BgVideo from "../assets/Backend/Video/Backend.mp4";
 import BgImage2 from "../assets/Backend/PNGFilesOfElements/Bg2.png";
+// import BgImage from "../assets/Backend/PNGFilesOfElements/Bg1.png";
 import Sec2Img from "../assets/Backend/Images/pexels-djordje-petrovic-2102416.jpg";
 
 import Lang1 from "../assets/Backend/Java.png";
@@ -40,6 +41,27 @@ const ServiceDetail = () => {
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
+
+  let services = [
+    {
+      image: Web,
+      title: "Web Application Development",
+      describe:
+        "Our web application development services make it easier to create, update, and maintain software applications that run on the web. By working with Amar Tech, you can speed up the growth of your user base, get access to new digital channels, improve your conversion rate, and reach other business goals faster.",
+    },
+    {
+      image: MAD,
+      title: "Mobile Application Development",
+      describe:
+        "Amar Tech designs highly practical, technologically transformational, featurerich native mobile apps for consumers and enterprises. We'll oversee mobile app development from inception to delivery and maintenance.",
+    },
+    {
+      image: UiUx,
+      title: "UI/UX Design",
+      describe:
+        "With our exceptional UI/UX design services, we help you show off your brand's finest and exceed user expectations. Let’s collaborate to establish long-term customer retention strategies and real, human-centered brand identities that have a direct impact on today's digital landscape.",
+    },
+  ];
   return (
     <>
       <div className="bg-[#D2D2DB] ">
@@ -169,70 +191,31 @@ const ServiceDetail = () => {
             software development services.
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 items-center justify-center  mx-16">
-            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]   lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[290px] xl:w-[400px]  grid grid-rows-2    items-center justify-evenly gap-2">
-              <div className="flex flex-1 items-center justify-center">
-                <img
-                  src={Web}
-                  alt="imageHere"
-                  className="h-48 drop-shadow-xl"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center -mt-16">
-                <h2 className="text-black text-lg lg:text-lg xl:text-xl font-bold my-3 maven-pro-bold">
-                  Web Application Development
-                </h2>
+            {services?.map((service, index) => {
+              return (
+                <div
+                  key={index}
+                  className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]   lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[290px] xl:w-[400px]  grid grid-rows-2    items-center justify-evenly gap-2"
+                >
+                  <div className="flex flex-1 items-center justify-center">
+                    <img
+                      src={service.image}
+                      alt="imageHere"
+                      className="h-48 drop-shadow-xl bg-contain"
+                    />
+                  </div>
+                  <div className="flex flex-col items-center justify-center -mt-16">
+                    <h2 className="text-black text-lg lg:text-lg xl:text-xl font-bold my-3 maven-pro-bold">
+                      {service.title}
+                    </h2>
 
-                <p className="text-black  text-justify text-sm px-10 content-center maven-pro-regular">
-                  Our web application development services make it easier to
-                  create, update, and maintain software applications that run on
-                  the web. By working with Amar Tech, you can speed up the
-                  growth of your user base, get access to new digital channels,
-                  improve your conversion rate, and reach other business goals
-                  faster.
-                </p>
-              </div>
-            </div>
-            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]  lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[290px] xl:w-[400px]  grid grid-rows-2    items-center justify-evenly gap-2">
-              <div className="flex flex-col items-center justify-cente">
-                <img
-                  src={MAD}
-                  alt="imageHere"
-                  className="h-48 drop-shadow-xl"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center -mt-16">
-                <h2 className="text-black  text-lg lg:text-lg xl:text-xl  font-bold my-3 maven-pro-bold">
-                  Mobile Application Development
-                </h2>
-                <p className="text-black  text-justify text-sm px-10 content-center maven-pro-regular">
-                  Amar Tech designs highly practical, technologically
-                  transformational, featurerich native mobile apps for consumers
-                  and enterprises. We'll oversee mobile app development from
-                  inception to delivery and maintenance.
-                </p>
-              </div>
-            </div>
-            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]  lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[290px] xl:w-[400px] grid grid-rows-2  items-center justify-evenly gap-2">
-              <div className="flex flex-col items-center justify-center">
-                <img
-                  src={UiUx}
-                  alt="imageHere"
-                  className="h-48 drop-shadow-xl"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center -mt-16">
-                <h2 className="text-black  text-lg lg:text-lg xl:text-xl  font-bold my-3 maven-pro-bold">
-                  UI/UX Design
-                </h2>
-                <p className="text-black text-justify text-sm px-10 content-center maven-pro-regular">
-                  With our exceptional UI/UX design services, we help you show
-                  off your brand's finest and exceed user expectations. Let’s
-                  collaborate to establish long-term customer retention
-                  strategies and real, human-centered brand identities that have
-                  a direct impact on today's digital landscape.
-                </p>
-              </div>
-            </div>
+                    <p className="text-black  text-justify text-sm px-10 content-center maven-pro-regular">
+                      {service.describe}
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
 
