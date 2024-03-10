@@ -19,6 +19,7 @@ import pwa from "../assets/Backend/Icons/Pwa.png";
 import cross from "../assets/Backend/Icons/cross.png";
 // import CustomizedTimeline from "../components/CustomizedTimelinea";
 import arrow from "../assets/Backend/Icons/arrow.png";
+import bg1 from "../assets/Backend/PNGFilesOfElements/Bg1.png"
 
 import MainFooter from "../components/MainFooter";
 import LeftAlignedTimeline from "../components/CustomizedTimeline";
@@ -82,8 +83,14 @@ const ServiceDetail = () => {
               muted
               className=" object-cover h-[70vh] w-full row-span-10 "
             ></video>
-            <div className="w-screen h-auto row-span-2">
-              <div className=" relative -top-14  lg:-top-[80px] xl:-top-24">
+            <div className="w-screen h-auto row-span-2 " >
+             
+              <div className=" relative -top-14  lg:-top-[80px] xl:-top-24" style={{
+            backgroundImage: `url(${bg1})`,
+            marginTop:500,
+         
+            backgroundSize: "cover",
+          }} >
                 <h1 className="text-white font-extrabold mx-4 text-5xl lg:text-8xl px-2">
                   Backend
                 </h1>
@@ -91,6 +98,7 @@ const ServiceDetail = () => {
                   <h1 className=" text-black relative top16 font-bold mx-4 text-5xl lg:text-8xl  h-[10vh] ">
                     Development
                   </h1>
+                  <p></p>
                   <p className="text-black font-bold pt-12 text-2xl px-8">
                     Crafting high-quality software solutions that support growth
                     strategies which involves redefining the architecture of
@@ -190,11 +198,11 @@ const ServiceDetail = () => {
             developers which aim to create long-term value with our excellent
             software development services.
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 items-center justify-center  mx-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 items-center justify-center max-sm:ml-6 max-xl:ml-0 max-xl:pr-4 max-xl:pl-2  max-xl:gap-24   mx-16">
             {services.map((service, index) => {
               return (
-                <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]   lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[290px] xl:w-[400px]  grid grid-rows-2    items-center justify-evenly gap-2">
-                  <div className="flex flex-1 items-center justify-center">
+                <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px] lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[290px] xl:w-[400px]  grid grid-rows-2 max-xl:gap-2 items-center justify-evenly gap-2">
+                  <div className="flex flex-1  items-center justify-center">
                     <img
                       src={service.image}
                       alt="imageHere"
