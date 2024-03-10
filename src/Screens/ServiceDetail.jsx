@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import BgVideo from "../assets/Backend/Video/Backend.mp4";
 import BgImage from "../assets/Backend/PNGFilesOfElements/Bg1.png";
 import BgImage2 from "../assets/Backend/PNGFilesOfElements/Bg2.png";
@@ -38,6 +38,10 @@ const ServiceDetail = () => {
   };
 
   window.addEventListener("scroll", handleScroll);
+
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
   return (
     <>
       <div className="bg-[#D2D2DB] ">
