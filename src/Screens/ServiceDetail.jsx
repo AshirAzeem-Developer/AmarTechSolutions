@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import BgVideo from "../assets/Backend/Video/Backend.mp4";
-import BgImage from "../assets/Backend/PNGFilesOfElements/Bg1.png";
 import BgImage2 from "../assets/Backend/PNGFilesOfElements/Bg2.png";
 import Sec2Img from "../assets/Backend/Images/pexels-djordje-petrovic-2102416.jpg";
 
@@ -66,21 +65,16 @@ const ServiceDetail = () => {
                 <h1 className="text-white font-extrabold mx-4 text-5xl lg:text-8xl px-2">
                   Backend
                 </h1>
-                <h1
-                  className=" text-black font-bold mx-4 text-5xl lg:text-8xl  h-[10vh] px-"
-                  style={{
-                    backgroundImage: `url(${BgImage})`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                  }}
-                >
-                  Development
-                </h1>
-                <p className="text-black font-bold pt-12 text-2xl px-8">
-                  Crafting high-quality software solutions that support growth
-                  strategies which involves redefining the architecture of your
-                  software with superior backend development services.
-                </p>
+                <div className="headingBg">
+                  <h1 className=" text-black relative top16 font-bold mx-4 text-5xl lg:text-8xl  h-[10vh] ">
+                    Development
+                  </h1>
+                  <p className="text-black font-bold pt-12 text-2xl px-8">
+                    Crafting high-quality software solutions that support growth
+                    strategies which involves redefining the architecture of
+                    your software with superior backend development services.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -89,7 +83,7 @@ const ServiceDetail = () => {
         {/* ====================== >>> Section 2 Starts Here <<<< ============================== */}
 
         <div
-          className="bg-[#D2D2DB] relative top-[700px] grid lg:grid-cols-12 gap-8 px-14 items-center justify-center py-8 w-screen overflow-hidden"
+          className="bg-[#D2D2DB] relative top-[600px] grid lg:grid-cols-12 gap-8 px-14 items-center justify-center py-8 w-screen overflow-hidden"
           style={{
             backgroundImage: `url(${BgImage2})`,
             backgroundPosition: "center",
@@ -175,7 +169,7 @@ const ServiceDetail = () => {
             software development services.
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 items-center justify-center  mx-16">
-            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]   lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[300px] xl:w-[400px]  flex flex-col  items-center justify-center ">
+            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]   lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[290px] xl:w-[400px]  flex flex-col  items-center justify-center ">
               <div>
                 <img
                   src={Web}
@@ -199,7 +193,7 @@ const ServiceDetail = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]  lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[300px] xl:w-[400px] flex flex-col items-center justify-center">
+            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]  lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[290px] xl:w-[400px] flex flex-col items-center justify-center">
               <div>
                 <img
                   src={MAD}
@@ -219,7 +213,7 @@ const ServiceDetail = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]  lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[300px] xl:w-[400px] flex flex-col  items-center justify-center">
+            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]  lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[290px] xl:w-[400px] flex flex-col  items-center justify-center">
               <div className="flex flex-col items-center justify-center">
                 <img
                   src={UiUx}
