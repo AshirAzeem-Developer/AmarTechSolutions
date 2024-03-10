@@ -1,4 +1,4 @@
-import { Route, Routes, ScrollRestoration } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import AMNavbar from "./AMNavbar";
 import "./App.css";
 import ServiceDetail from "./Screens/ServiceDetail";
