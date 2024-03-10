@@ -59,12 +59,12 @@ const ServiceDetail = () => {
               className=" object-cover h-[70vh] w-full row-span-10 "
             ></video>
             <div className="w-screen h-auto row-span-2">
-              <div className=" relative -top-14  lg:-top-[192px] xl:-top-24">
-                <h1 className="text-black font-extrabold mx-4 text-5xl lg:text-8xl px-2">
+              <div className=" relative -top-14  lg:-top-[80px] xl:-top-24">
+                <h1 className="text-white font-extrabold mx-4 text-5xl lg:text-8xl px-2">
                   Backend
                 </h1>
                 <h1
-                  className=" text-white font-bold mx-4 text-5xl lg:text-8xl  h-[10vh] px-"
+                  className=" text-black font-bold mx-4 text-5xl lg:text-8xl  h-[10vh] px-"
                   style={{
                     backgroundImage: `url(${BgImage})`,
                     backgroundSize: "cover",
@@ -172,7 +172,7 @@ const ServiceDetail = () => {
             software development services.
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 items-center justify-center  mx-16">
-            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]   lg:h-[600px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[350px] xl:w-[400px]  flex flex-col  items-center justify-center ">
+            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]   lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[300px] xl:w-[400px]  flex flex-col  items-center justify-center ">
               <div>
                 <img
                   src={Web}
@@ -181,7 +181,7 @@ const ServiceDetail = () => {
                 />
               </div>
               <div>
-                <h2 className="text-black text-xl font-bold my-3 maven-pro-bold">
+                <h2 className="text-black text-lg lg:text-lg xl:text-xl font-bold my-3 maven-pro-bold">
                   Web Application Development
                 </h2>
               </div>
@@ -196,7 +196,7 @@ const ServiceDetail = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]  lg:h-[600px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[350px] xl:w-[400px] flex flex-col items-center justify-center">
+            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]  lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[300px] xl:w-[400px] flex flex-col items-center justify-center">
               <div>
                 <img
                   src={MAD}
@@ -205,7 +205,7 @@ const ServiceDetail = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h2 className="text-black text-xl font-bold my-3 maven-pro-bold">
+                <h2 className="text-black  text-lg lg:text-lg xl:text-xl  font-bold my-3 maven-pro-bold">
                   Mobile Application Development
                 </h2>
                 <p className="text-black  text-justify text-sm px-10 content-center maven-pro-regular">
@@ -216,7 +216,7 @@ const ServiceDetail = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]  lg:h-[600px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[350px] xl:w-[400px] flex flex-col  items-center justify-center">
+            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]  lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[300px] xl:w-[400px] flex flex-col  items-center justify-center">
               <div className="flex flex-col items-center justify-center">
                 <img
                   src={UiUx}
@@ -225,7 +225,7 @@ const ServiceDetail = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h2 className="text-black text-2xl font-bold my-3 maven-pro-bold">
+                <h2 className="text-black  text-lg lg:text-lg xl:text-xl  font-bold my-3 maven-pro-bold">
                   UI/UX Design
                 </h2>
                 <p className="text-black text-justify text-sm px-10 content-center maven-pro-regular">
@@ -242,12 +242,12 @@ const ServiceDetail = () => {
 
         {/* ====================== >>> Section 3 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 4 Starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] relative top-[700px]  h-auto   justify-center w-screen overflow-hidden py-24">
+        <div className="w-screen bg-[#D2D2DB] relative top-[700px]  h-auto items-center   justify-center  overflow-hidden py-24">
           <h1 className="text-3xl text-center font-bold text-black  futura_heavy">
             Why Choose Amar Tech for Software Development Services?
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2  gap-8   items-center justify-center px-6 md:px-8 lg:px-36 pt-12">
-            <div className="bg-[#F4F4F4] drop-shadow-xl h-[330px] md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
+          <div className="w-screen grid grid-cols-1 sm:grid-cols-2 grid-rows-2   gap-8   items-center justify-between   pt-12 px-12 lg:px-32">
+            <div className="bg-[#F4F4F4] drop-shadow-xl h-[330px] md:h-[320px]     rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
               <div className="flex flex-row p-4 items-center justify-around  ">
                 <img src={andriod} alt="imageHere" className="h-24  " />
                 <h2 className="text-black  text-xl sm:text-xl md:text-2xl text-center  md:px-8  pt-4 maven-pro-medium">
@@ -262,7 +262,7 @@ const ServiceDetail = () => {
                 designed with a user-centric approach.
               </p>
             </div>
-            <div className="bg-[#F4F4F4] drop-shadow-xl h-[330px]  md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
+            <div className="bg-[#F4F4F4] drop-shadow-xl h-[330px]  md:h-[320px]     rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
               <div className="flex flex-row p-4   items-center justify-around ">
                 <img src={ios} alt="imageHere" className="h-24" />
                 <h2 className="text-black text-xl sm:text-xl md:text-2xl text-center font-medium md:px-8  pt-4 maven-pro-medium">
@@ -276,7 +276,7 @@ const ServiceDetail = () => {
                 reach in no time.
               </p>
             </div>
-            <div className="bg-[#F4F4F4] drop-shadow-xl h-[330px]  md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
+            <div className="bg-[#F4F4F4] drop-shadow-xl h-[330px]  md:h-[320px]     rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
               <div className="flex flex-row p-4  items-center justify-around  ">
                 <img src={pwa} alt="imageHere" className="h-24" />
                 <h2 className="text-black text-xl sm:text-xl md:text-2xl text-center font-medium md:px-8  pt-4 maven-pro-medium">
@@ -290,7 +290,7 @@ const ServiceDetail = () => {
                 run directly from the server.
               </p>
             </div>
-            <div className="bg-[#F4F4F4] drop-shadow-xl h-[330px]  md:h-[300px]  w-auto md:w-300px lg:w-[430px]  xl:w-[550px]  rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
+            <div className="bg-[#F4F4F4] drop-shadow-xl h-[330px]  md:h-[320px]     rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
               <div className="flex flex-row p-4 items-center justify-around   ">
                 <img src={cross} alt="imageHere" className="h-24" />
                 <h2 className="text-black text-xl sm:text-xl md:text-2xl text-center font-medium md:px-8  pt-4 maven-pro-medium">

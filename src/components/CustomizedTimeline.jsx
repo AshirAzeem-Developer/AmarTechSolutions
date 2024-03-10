@@ -11,15 +11,15 @@ import "react-vertical-timeline-component/style.min.css";
 export default function CustomizedTimeline() {
   return (
     <>
-      <div className="bg-[#D2D2DB]  flex flex-col items-end justify-center ">
+      <div className="bg-[#D2D2DB]  flex flex-col items-end justify-center px-8">
         <div className=" bg-[#F6F6F6] rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4 ">
           <div className="col-span-2">
-            <img src={Team} alt="imageHere" className="h-auto w-44" />
+            <img src={Team} alt="imageHere" className="h-auto w-36" />
           </div>
-          <div className="col-span-2 w-32 h-auto mx-8 p-8 px-12 sm:flex items-center justify-center bg-[#A7D7FA] rounded-full hidden ">
-            <h1 className="text-6xl">1</h1>
+          <div className="col-span-2  h-[100px] mx-8 p-8 px-12 sm:flex items-center justify-center bg-[#A7D7FA] rounded-full hidden w-[100px] ">
+            <h1 className="text-4xl">1</h1>
           </div>
-          <div className="sm:col-span-8 col-span-3">
+          <div className="sm:col-span-8 col-span-3 w-full mx-4">
             <h1 className="text-4xl my-2 maven-pro-bold text-black maven-pro-bold">
               Team Expertise
             </h1>
@@ -30,18 +30,15 @@ export default function CustomizedTimeline() {
             </p>
           </div>
         </div>
-        {/* ========== >>>> Line 1 Starts <<<<< =========== */}
-        {/* <div className="w-[75%] h-64  border-l-8 border-dashed  relative -top-28 -right-6"></div> */}
-        {/* ========== >>>> Line 1 Ends <<<<< =========== */}
 
-        <div className="  rounded-xl mx-10 p-6  grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4 ">
+        <div className=" rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4">
           <div className=" col-span-2">
-            <img src={quality} alt="imageHere" className="h-auto w-44" />
+            <img src={quality} alt="imageHere" className="h-auto w-36" />
           </div>
-          <div className="col-span-2 w-32 h-auto mx-8 p-8 px-12 hidden sm:flex items-center justify-center bg-[#A7D7FA] rounded-full">
-            <h1 className="text-6xl ">2</h1>
+          <div className="col-span-2 w-[100px] h-[100px] mx-8 p-8 px-12 hidden sm:flex items-center justify-center bg-[#A7D7FA] rounded-full">
+            <h1 className="text-4xl">2</h1>
           </div>
-          <div className="col-span-8">
+          <div className="sm:col-span-8 col-span-3 w-full mx-4">
             <h1 className="text-4xl my-2 maven-pro-bold text-black ">
               Quality Assurance
             </h1>
@@ -51,18 +48,15 @@ export default function CustomizedTimeline() {
             </p>
           </div>
         </div>
-        {/* ========== >>>> Line 2 Starts <<<<< =========== */}
-        {/* <div className="w-[75%] h-64  border-l-8  border-dashed  relative -top-72 -right-6"></div> */}
-        {/* ========== >>>> Line 2 Ends <<<<< =========== */}
 
         <div className=" bg-[#F6F6F6] rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4  ">
           <div className="col-span-2">
-            <img src={contiues} alt="imageHere" className="h-auto w-44" />
+            <img src={contiues} alt="imageHere" className="h-auto w-36" />
           </div>
-          <div className="col-span-2 w-32 h-auto mx-8 p-8 px-12 hidden sm:flex items-center justify-center bg-[#A7D7FA] rounded-full">
-            <h1 className="text-6xl">3</h1>
+          <div className="col-span-2 w-[100px] h-[100px] mx-8 p-8 px-12 hidden sm:flex items-center justify-center bg-[#A7D7FA] rounded-full">
+            <h1 className="text-4xl">3</h1>
           </div>
-          <div className="col-span-8">
+          <div className="sm:col-span-8 col-span-3 w-full mx-4">
             <h1 className="text-4xl my-2 font-bold text-black">
               Continues Learning
             </h1>
@@ -73,17 +67,15 @@ export default function CustomizedTimeline() {
             </p>
           </div>
         </div>
-        {/* ========== >>>> Line 3 Starts <<<<< =========== */}
-        {/* <div className="w-[75%] h-64  border-l-8  border-dashed  relative -top-[480px] -right-6"></div> */}
-        {/* ========== >>>> Line 3 Ends <<<<< =========== */}
+
         <div className="rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-1 ">
           <div className="col-span-2 pr-12 max-sm:w-72 ">
-            <img src={scale} alt="imageHere" className="h-auto w-44" />
+            <img src={scale} alt="imageHere" className="h-auto w-36" />
           </div>
-          <div className="col-span-2 w-32 h-auto mx-8 p-8 px-12 hidden sm:flex items-center justify-center bg-[#A7D7FA] rounded-full">
-            <h1 className="text-6xl">4</h1>
+          <div className="col-span-2 w-[100px] h-[100px] mx-8 p-8 px-12 hidden sm:flex items-center justify-center bg-[#A7D7FA] rounded-full">
+            <h1 className="text-4xl">4</h1>
           </div>
-          <div className="col-span-8 ps-4">
+          <div className="sm:col-span-8 col-span-3 w-full mx-4">
             <h1 className="text-4xl my-2 maven-pro-bold text-black">
               Scalability
             </h1>
@@ -93,17 +85,15 @@ export default function CustomizedTimeline() {
             </p>
           </div>
         </div>
-        {/* ========== >>>> Line 4 Starts <<<<< =========== */}
-        {/* <div className="w-[75%] h-64  border-l-8  border-dashed  relative -top-[700px] -right-6 bottom-0"></div> */}
-        {/* ========== >>>> Line 4 Ends <<<<< =========== */}
+
         <div className=" bg-[#F6F6F6] rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4  ">
           <div className="col-span-2">
-            <img src={feedback} alt="imageHere" className="h-auto w-44" />
+            <img src={feedback} alt="imageHere" className="h-auto w-36" />
           </div>
-          <div className="col-span-2 w-32 h-auto mx-8 p-8 px-12 hidden sm:flex items-center justify-center bg-[#A7D7FA] rounded-full">
-            <h1 className="text-6xl">5</h1>
+          <div className="col-span-2  h-[100px] mx-8 p-8 px-12 sm:flex items-center justify-center bg-[#A7D7FA] rounded-full hidden w-[100px]">
+            <h1 className="text-4xl">5</h1>
           </div>
-          <div className="col-span-8">
+          <div className="sm:col-span-8 col-span-3 w-full mx-4">
             <h1 className="text-4xl my-2 maven-pro-bold text-black">
               Feedback & Improvement
             </h1>
