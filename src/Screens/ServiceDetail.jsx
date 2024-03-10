@@ -169,20 +169,19 @@ const ServiceDetail = () => {
             software development services.
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 items-center justify-center  mx-16">
-            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]   lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[290px] xl:w-[400px]  flex flex-col  items-center justify-center ">
-              <div>
+            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]   lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[290px] xl:w-[400px]  grid grid-rows-2    items-center justify-evenly gap-2">
+              <div className="flex flex-1 items-center justify-center">
                 <img
                   src={Web}
                   alt="imageHere"
                   className="h-48 drop-shadow-xl"
                 />
               </div>
-              <div>
+              <div className="flex flex-col items-center justify-center -mt-16">
                 <h2 className="text-black text-lg lg:text-lg xl:text-xl font-bold my-3 maven-pro-bold">
                   Web Application Development
                 </h2>
-              </div>
-              <div>
+
                 <p className="text-black  text-justify text-sm px-10 content-center maven-pro-regular">
                   Our web application development services make it easier to
                   create, update, and maintain software applications that run on
@@ -193,15 +192,15 @@ const ServiceDetail = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]  lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[290px] xl:w-[400px] flex flex-col items-center justify-center">
-              <div>
+            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]  lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[290px] xl:w-[400px]  grid grid-rows-2    items-center justify-evenly gap-2">
+              <div className="flex flex-col items-center justify-cente">
                 <img
                   src={MAD}
                   alt="imageHere"
                   className="h-48 drop-shadow-xl"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="flex flex-col items-center justify-center -mt-16">
                 <h2 className="text-black  text-lg lg:text-lg xl:text-xl  font-bold my-3 maven-pro-bold">
                   Mobile Application Development
                 </h2>
@@ -213,7 +212,7 @@ const ServiceDetail = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]  lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[290px] xl:w-[400px] flex flex-col  items-center justify-center">
+            <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px]  lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[290px] xl:w-[400px] grid grid-rows-2  items-center justify-evenly gap-2">
               <div className="flex flex-col items-center justify-center">
                 <img
                   src={UiUx}
@@ -221,7 +220,7 @@ const ServiceDetail = () => {
                   className="h-48 drop-shadow-xl"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="flex flex-col items-center justify-center -mt-16">
                 <h2 className="text-black  text-lg lg:text-lg xl:text-xl  font-bold my-3 maven-pro-bold">
                   UI/UX Design
                 </h2>
