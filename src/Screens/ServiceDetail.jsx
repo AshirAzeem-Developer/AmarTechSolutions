@@ -87,8 +87,8 @@ const ServiceDetail = () => {
              
               <div className=" relative -top-14  lg:-top-[80px] xl:-top-24" style={{
             backgroundImage: `url(${bg1})`,
-            marginTop:500,
-         
+            backgroundPosition: "center",
+            height:100,
             backgroundSize: "cover",
           }} >
                 <h1 className="text-white font-extrabold mx-4 text-5xl lg:text-8xl px-2">
