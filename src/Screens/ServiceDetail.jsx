@@ -23,8 +23,6 @@ import arrow from "../assets/Backend/Icons/arrow.png";
 import MainFooter from "../components/MainFooter";
 import LeftAlignedTimeline from "../components/CustomizedTimeline";
 import AMNavbar from "../components/AMNAvbar";
-import { ScrollRestoration } from "react-router-dom";
-
 const ServiceDetail = () => {
   const [scroll, setScroll] = useState(false);
 
@@ -46,7 +44,6 @@ const ServiceDetail = () => {
   return (
     <>
       <div className="bg-[#D2D2DB] ">
-        {/* <ScrollRestoration /> */}
         {/* ====================== >>> Section 1 Starts Here <<<< ============================== */}
         <div className="bg-[#D2D2DB] grid grid-rows-2 w-screen overflow-hidden">
           <div
