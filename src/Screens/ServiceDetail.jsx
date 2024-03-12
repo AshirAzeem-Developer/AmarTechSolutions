@@ -96,11 +96,11 @@ const ServiceDetail = () => {
                   //   backgroundSize: "cover",
                   // }}
                 >
-                  <h1 className=" text-black relative  font-bold mx-4 text-5xl lg:text-8xl  h-[10vh] ">
+                  <h1 className=" text-black relative top16 font-bold mx-4 text-5xl lg:text-8xl  h-[10vh] ">
                     Development
                   </h1>
-               
-                  <p className="text-black font-bold  sm:pt-4 md:pt-6 pt-4 text-2xl   px-8">
+                  <p></p>
+                  <p className="text-black font-bold pt-12 text-2xl px-8">
                     Crafting high-quality software solutions that support growth
                     strategies which involves redefining the architecture of
                     your software with superior backend development services.
@@ -114,7 +114,7 @@ const ServiceDetail = () => {
         {/* ====================== >>> Section 2 Starts Here <<<< ============================== */}
 
         <div
-          className="bg-[#D2D2DB]  relative sm:top-[100px] md:top-[670px] grid lg:grid-cols-12 gap-8 px-16 items-center justify-center py-8 w-screen overflow-hidden "
+          className="bg-[#D2D2DB] relative top-[570px] grid lg:grid-cols-12 gap-8 px-16 items-center justify-center py-8 w-screen overflow-hidden "
           // style={{
           //   backgroundImage: `url(${BgImage2})`,
           //   backgroundPosition: "center",
@@ -204,7 +204,7 @@ const ServiceDetail = () => {
               return (
                 <div
                   key={index}
-                  className=" bg-white mx-6  py-8 rounded-xl drop-shadow-xl"
+                  className=" bg-white mx-10  py-8 rounded-xl drop-shadow-xl"
                 >
                   <div className="flex flex-col  items-center justify-center">
                     <img
