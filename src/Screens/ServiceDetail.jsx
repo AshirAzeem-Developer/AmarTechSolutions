@@ -83,7 +83,7 @@ const ServiceDetail = () => {
               className=" object-cover h-[70vh] w-full row-span-10 "
             ></video>
             <div className="w-screen h-auto row-span-2 ">
-              <div className=" relative -top-14  lg:-top-[80px] xl:-top-24">
+              <div className=" relative -top-14  lg:-top-[95px] xl:-top-24">
                 <h1 className="text-white font-extrabold mx-4 text-5xl lg:text-8xl px-8">
                   Backend
                 </h1>
