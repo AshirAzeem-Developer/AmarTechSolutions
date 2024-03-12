@@ -204,7 +204,7 @@ const ServiceDetail = () => {
               return (
                 <div
                   key={index}
-                  className=" bg-white mx-6  py-8 rounded-xl drop-shadow-xl"
+                  className=" bg-white mx-10  py-8 rounded-xl drop-shadow-xl"
                 >
                   <div className="flex flex-col  items-center justify-center">
                     <img
