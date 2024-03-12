@@ -34,7 +34,7 @@ const AMNavbar = () => {
       current: true,
     },
     {
-      name: "AboutUs",
+      name: "About Us",
       href: "#aboutus",
       scrollName: "aboutus",
       current: false,

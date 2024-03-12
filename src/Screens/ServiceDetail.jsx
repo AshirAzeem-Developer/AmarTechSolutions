@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import BgVideo from "../assets/Backend/Video/Backend.mp4";
-import BgImage2 from "../assets/Backend/PNGFilesOfElements/Bg2.png";
-import BgImage from "../assets/Backend/PNGFilesOfElements/Bg1.png";
+// import BgImage2 from "../assets/Backend/PNGFilesOfElements/Bg2.png";
+// import BgImage from "../assets/Backend/PNGFilesOfElements/Bg1.png";
 import Sec2Img from "../assets/Backend/Images/pexels-djordje-petrovic-2102416.jpg";
 
 import Lang1 from "../assets/Backend/Java.png";
@@ -19,7 +19,6 @@ import pwa from "../assets/Backend/Icons/Pwa.png";
 import cross from "../assets/Backend/Icons/cross.png";
 // import CustomizedTimeline from "../components/CustomizedTimelinea";
 import arrow from "../assets/Backend/Icons/arrow.png";
-import bg1 from "../assets/Backend/PNGFilesOfElements/Bg1.png";
 
 import MainFooter from "../components/MainFooter";
 import LeftAlignedTimeline from "../components/CustomizedTimeline";
@@ -67,7 +66,7 @@ const ServiceDetail = () => {
     <>
       <div className="bg-[#D2D2DB] ">
         {/* ====================== >>> Section 1 Starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] grid grid-rows-2 w-screen overflow-hidden">
+        <div className="bg-[#D2D2DB] grid grid-rows-2 w-screen overflow-hidden ">
           <div
             className={`sticky top-0  z-10  ${
               scroll ? " bg-[#0000005a]" : "bg-transparent"
@@ -85,17 +84,17 @@ const ServiceDetail = () => {
             ></video>
             <div className="w-screen h-auto row-span-2 ">
               <div className=" relative -top-14  lg:-top-[80px] xl:-top-24">
-                <h1 className="text-white font-extrabold mx-4 text-5xl lg:text-8xl px-2">
+                <h1 className="text-white font-extrabold mx-4 text-5xl lg:text-8xl px-8">
                   Backend
                 </h1>
                 <div
-                  className="headingBg z-10"
-                  style={{
-                    backgroundImage: `url(${BgImage})`,
-                    backgroundPosition: "center",
-                    height: "100%",
-                    backgroundSize: "cover",
-                  }}
+                  className="headingBg z-10 px-8"
+                  // style={{
+                  //   backgroundImage: `url(${BgImage})`,
+                  //   backgroundPosition: "center",
+                  //   height: "100%",
+                  //   backgroundSize: "cover",
+                  // }}
                 >
                   <h1 className=" text-black relative top16 font-bold mx-4 text-5xl lg:text-8xl  h-[10vh] ">
                     Development
@@ -115,13 +114,13 @@ const ServiceDetail = () => {
         {/* ====================== >>> Section 2 Starts Here <<<< ============================== */}
 
         <div
-          className="bg-[#D2D2DB] relative top-[600px] grid lg:grid-cols-12 gap-8 px-14 items-center justify-center py-8 w-screen overflow-hidden"
-          style={{
-            backgroundImage: `url(${BgImage2})`,
-            backgroundPosition: "center",
+          className="bg-[#D2D2DB] relative top-[570px] grid lg:grid-cols-12 gap-8 px-16 items-center justify-center py-8 w-screen overflow-hidden "
+          // style={{
+          //   backgroundImage: `url(${BgImage2})`,
+          //   backgroundPosition: "center",
 
-            backgroundSize: "cover",
-          }}
+          //   backgroundSize: "cover",
+          // }}
         >
           <div className="col-span-6 xl:col-span-4 ">
             <img
@@ -190,7 +189,7 @@ const ServiceDetail = () => {
         {/* ====================== >>> Section 2 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 3 Starts Here <<<< ============================== */}
 
-        <div className="bg-[#D2D2DB] relative top-[700px]  h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center ">
+        <div className="bg-[#D2D2DB] relative top-[600px]  h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center px-8">
           <h1 className=" text-3xl py-2 lg:text-4xl px-8 text-black font-semibold futura_heavy">
             Transforming Businesses through Smart Software Solutions and
             Committed Development Teams.
@@ -200,19 +199,22 @@ const ServiceDetail = () => {
             developers which aim to create long-term value with our excellent
             software development services.
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 items-center justify-center max-sm:ml-6 max-xl:ml-0 max-xl:pr-4 max-xl:pl-2  max-xl:gap-24   mx-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
             {services.map((service, index) => {
               return (
-                <div className="bg-white drop-shadow-xl rounded-lg h-[480px] sm:h-[450px] lg:h-[500px] xl:h-[500px] w-[330px] text-center md:w-[400px] lg:w-[290px] xl:w-[400px]  grid grid-rows-2 max-xl:gap-2 items-center justify-evenly gap-2">
-                  <div className="flex flex-1  items-center justify-center">
+                <div
+                  key={index}
+                  className=" bg-white mx-6  py-8 rounded-xl drop-shadow-xl"
+                >
+                  <div className="flex flex-col  items-center justify-center">
                     <img
                       src={service.image}
                       alt="imageHere"
-                      className="h-48 drop-shadow-xl"
+                      className="h-44 drop-shadow-xl"
                     />
                   </div>
-                  <div className="flex flex-col items-center justify-center -mt-16">
-                    <h2 className="text-black text-lg lg:text-lg xl:text-xl font-bold my-3 maven-pro-bold">
+                  <div className="flex flex-col items-center justify-center ">
+                    <h2 className="text-black text-lg lg:text-lg xl:text-xl font-bold my-3 maven-pro-bold text-center px-2">
                       {service.title}
                     </h2>
 
@@ -228,7 +230,7 @@ const ServiceDetail = () => {
 
         {/* ====================== >>> Section 3 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 4 Starts Here <<<< ============================== */}
-        <div className="w-screen bg-[#D2D2DB] relative top-[700px]  h-auto items-center   justify-center  overflow-hidden py-24">
+        <div className="w-screen bg-[#D2D2DB] relative top-[600px]  h-auto items-center   justify-center  overflow-hidden py-24">
           <h1 className="text-3xl text-center font-bold text-black  futura_heavy">
             Why Choose Amar Tech for Software Development Services?
           </h1>
@@ -294,7 +296,7 @@ const ServiceDetail = () => {
         </div>
         {/* ====================== >>> Section 4 End Here <<<< ============================== */}
         {/* ====================== >>> Section 5 Starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] pt-12 relative top-[700px]  h-auto  py-12">
+        <div className="bg-[#D2D2DB] pt-12 relative top-[600px]  h-auto  py-12">
           <h1 className="text-4xl text-center   text-black font-semibold  futura_heavy">
             How Amartech Organize A Smooth Workflow For Their Clients?
           </h1>
@@ -304,7 +306,7 @@ const ServiceDetail = () => {
         </div>
         {/* ====================== >>> Section 5 Ends Here <<<< ==============================
              {/* ====================== >>> Section 6 starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] relative top-[700px]  pt-4 pb-5 grid grid-col-1 justify-center">
+        <div className="bg-[#D2D2DB] relative top-[600px]  pt-4 pb-5 grid grid-col-1 justify-center">
           <div className="bg-[#053F74] w-auto xl:w-[750px] rounded-3xl p-4  flex flex-col items-center justify-center mx-6">
             <h1 className="text-4xl max-sm:text-3xl text-center text-[#D2D2DB] font-bold pt-12 max-sm:pt-8 maven-pro-regular ">
               Want To Shape Your Business?
@@ -321,7 +323,7 @@ const ServiceDetail = () => {
         </div>
 
         {/* ====================== >>> Section 6 Ends Here <<<< ============================== */}
-        <div className=" bg-[#053F74] relative top-[700px]  p-4 w-100  h-auto mx-auto   mySubContainerClass">
+        <div className=" bg-[#053F74] relative top-[600px]  p-4 w-100  h-auto mx-auto   mySubContainerClass">
           <MainFooter />
         </div>
       </div>

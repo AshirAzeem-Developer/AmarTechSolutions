@@ -25,7 +25,7 @@ const AMNAvbar = () => {
       current: true,
     },
     {
-      name: "AboutUs",
+      name: "About Us",
       href: "/",
       scrollName: "aboutus",
       current: false,
