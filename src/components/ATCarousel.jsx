@@ -1,6 +1,7 @@
 import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
@@ -50,10 +51,10 @@ const ATCarousel = () => {
         navigation={true}
         loop={true}
         autoplay={{
-          delay: 2500,
+          delay: 2000,
           disableOnInteraction: false,
         }}
-        modules={[Navigation]}
+        modules={[Autoplay, Navigation]}
         className="mySwiper"
         breakpoints={{
           640: {
@@ -78,9 +79,9 @@ const ATCarousel = () => {
             >
               <div
                 key={d.name}
-                className="text-black flex flex-col  px-4  py-4"
+                className="text-black flex flex-col  px-4  py-4 items-center justify-center"
               >
-                <div className=" bg-[#053F74] max-sm:w-[250px] lg:w-[280px] max-sm:p-2  rounded-3xl h-auto md:h-[255px] py-5">
+                <div className=" bg-[#053F74] max-sm:w-[250px] lg:w-[290px] max-sm:p-2  rounded-3xl h-auto md:h-[265px] py-5">
                   <div className="flex flex-col md:flex-row items-center justify-start ">
                     <img
                       src={d.img}
@@ -94,7 +95,7 @@ const ATCarousel = () => {
                   </div>
 
                   <div className="flex flex-col items-center justify-center  p-4">
-                    <p className="text-balance text-md ">{d.review}</p>
+                    <p className="text-center text-md ">{d.review}</p>
                   </div>
                 </div>
               </div>

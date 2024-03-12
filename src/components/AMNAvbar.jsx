@@ -8,7 +8,7 @@ import { Phone } from "lucide-react";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -17,6 +17,8 @@ const AMNAvbar = () => {
   useEffect(() => {
     AOS.init({ duration: "1000" });
   }, []);
+  const navigate = useNavigate();
+
   const navigation = [
     {
       name: "Home",
@@ -87,7 +89,10 @@ const AMNAvbar = () => {
 
                 {/* Logo and Navigation */}
                 <div className="flex items-center justify-center flex-grow">
-                  <div className="flex flex-shrink-0 items-center">
+                  <div
+                    className="flex flex-shrink-0 items-center cursor-pointer"
+                    onClick={() => navigate("/")}
+                  >
                     <img
                       className="w-24 pt-4 h-2w-24 lg:h-52 lg:w-52 md:h-44 md:w-44"
                       src={scroll ? LogoNav : LogoNav}

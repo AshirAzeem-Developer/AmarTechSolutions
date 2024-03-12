@@ -79,16 +79,19 @@ const Contactus = () => {
                           ------ Select Service ------
                         </option>
                         <option className="text-black rounded-full">
-                          Service 1
+                          Backend Development
                         </option>
                         <option className="text-black rounded-full">
-                          Service 2
+                          Frontend Development
                         </option>
                         <option className="text-black rounded-full">
-                          Service 3
+                          Database Management
                         </option>
                         <option className="text-black rounded-full">
-                          Service 4
+                          Monitoring and Analytics
+                        </option>
+                        <option className="text-black rounded-full">
+                          Digital Transformation and Consultation
                         </option>
                       </select>
                     </div>

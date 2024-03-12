@@ -17,6 +17,7 @@ import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Values from "./components/Values";
+import { useNavigate } from "react-router-dom";
 // import AddValueToYourBusiness from "./components/AddValueToYourBusiness";
 
 function classNames(...classes) {
@@ -65,6 +66,7 @@ const AMNavbar = () => {
       setScroll(false);
     }
   };
+  const navigate = useNavigate();
 
   window.addEventListener("scroll", handleScroll);
 
@@ -101,7 +103,10 @@ const AMNavbar = () => {
 
                   {/* Logo and Navigation */}
                   <div className="flex items-center justify-center flex-grow">
-                    <div className="flex flex-shrink-0 items-center">
+                    <div
+                      className="flex flex-shrink-0 items-center  cursor-pointer"
+                      onClick={() => navigate("/")}
+                    >
                       <img
                         className="w-24 pt-4 h-2w-24 lg:h-52 lg:w-52 md:h-44 md:w-44"
                         src={scroll ? LogoNav : LogoNav}
