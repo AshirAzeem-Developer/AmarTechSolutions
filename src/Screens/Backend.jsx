@@ -23,7 +23,7 @@ import arrow from "../assets/Backend/Icons/arrow.png";
 import MainFooter from "../components/MainFooter";
 import LeftAlignedTimeline from "../components/CustomizedTimeline";
 import AMNavbar from "../components/AMNAvbar";
-const ServiceDetail = () => {
+const Backend = () => {
   const [scroll, setScroll] = useState(false);
 
   const handleScroll = () => {
@@ -331,4 +331,4 @@ const ServiceDetail = () => {
   );
 };
 
-export default ServiceDetail;
+export default Backend;

@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import AMNavbar from "./AMNavbar";
 import "./App.css";
-import ServiceDetail from "./Screens/ServiceDetail";
 import FrontEnd from "./Screens/FrontEnd";
+import Backend from "./Screens/Backend";
 // import AMTimeline from "./components/AMTimeline";
 
 function App() {
@@ -10,10 +10,9 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<AMNavbar />} />
-        <Route path="/serviceDetails" element={<ServiceDetail />} />
+        <Route path="/backend" element={<Backend />} />
         {/* <Route path="/timeline" element={<AMTimeline />} /> */}
-        <Route path="/Frontend" element={<FrontEnd />} />
-
+        <Route path="/frontend" element={<FrontEnd />} />
       </Routes>
     </>
   );

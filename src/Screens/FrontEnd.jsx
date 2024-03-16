@@ -85,7 +85,7 @@ const FrontEnd = () => {
             <div className="w-screen h-auto row-span-2 ">
               <div className=" relative -top-14  lg:-top-[95px] xl:-top-24">
                 <h1 className="text-white font-extrabold mx-4 text-5xl lg:text-8xl px-8">
-                 FrontEnd
+                  FrontEnd
                 </h1>
                 <div
                   className="headingBg z-10 px-8"
@@ -101,8 +101,9 @@ const FrontEnd = () => {
                   </h1>
                   <p></p>
                   <p className="text-black font-bold pt-12 text-2xl px-8">
-                  Delivering unparalleled user experiences through cutting-edge frontend services, redefining
-digital interactions with seamless innovation
+                    Delivering unparalleled user experiences through
+                    cutting-edge frontend services, redefining digital
+                    interactions with seamless innovation
                   </p>
                 </div>
               </div>
@@ -131,22 +132,22 @@ digital interactions with seamless innovation
           <div className="col-span-6  xl:col-span-8 py-6">
             <div className="flex flex-col items-center justify-center">
               <h1 className="my-1 text-2xl  text-black">
-              Let our skilled frontend developers at Amartech help you create
-interactive, stunning, and pixel perfect web and mobile
-applications that will captivate your users.
+                Let our skilled frontend developers at Amartech help you create
+                interactive, stunning, and pixel perfect web and mobile
+                applications that will captivate your users.
               </h1>
               <br />
               <h1 className="my-1 text-2xl  text-black">
-              We aim at providing top-tier visual experiences by merging your
-concepts with our frontend proficiency.
+                We aim at providing top-tier visual experiences by merging your
+                concepts with our frontend proficiency.
               </h1>
               <br />
               <h1 className="my-1 text-2xl  text-black">
-              Amartech uses a wide range of diverse array of technologies to
-create responsive and interactive web applications including
-frameworks, programming languages, and tools to provide
-advanced, top-notch, and easily scalable solutions to customers
-globally.
+                Amartech uses a wide range of diverse array of technologies to
+                create responsive and interactive web applications including
+                frameworks, programming languages, and tools to provide
+                advanced, top-notch, and easily scalable solutions to customers
+                globally.
               </h1>
             </div>
 
@@ -154,31 +155,31 @@ globally.
               <div className="flex flex-col items-center justify-center">
                 <img src={Lang1} alt="ImageHere" className="h-1/3 lg:h-2/4" />
                 <h1 className="text-black text-1xl font-bold futura_book">
-                AngularJS
+                  AngularJS
                 </h1>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img src={Lang2} alt="ImageHere" className="h-1/3 lg:h-2/4" />
                 <h1 className="text-black text-1xl font-bold futura_book">
-                Vue.js
+                  Vue.js
                 </h1>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img src={Lang3} alt="ImageHere" className="h-1/3 lg:h-2/4" />
                 <h1 className="text-black text-1xl font-bold futura_book">
-                TailwindCSS
+                  TailwindCSS
                 </h1>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img src={Lang4} alt="ImageHere" className="h-1/3 lg:h-2/4" />
                 <h1 className="text-black text-1xl font-bold futura_book">
-                React JS
+                  React JS
                 </h1>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img src={Lang5} alt="ImageHere" className="h-1/3 lg:h-2/4" />
                 <h1 className="text-black text-1xl font-bold futura_book">
-                JavaScript
+                  JavaScript
                 </h1>
               </div>
             </div>
