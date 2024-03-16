@@ -87,15 +87,7 @@ const Backend = () => {
                 <h1 className="text-white font-extrabold mx-4 text-5xl lg:text-8xl px-8">
                   Backend
                 </h1>
-                <div
-                  className="headingBg z-10 px-8"
-                  // style={{
-                  //   backgroundImage: `url(${BgImage})`,
-                  //   backgroundPosition: "center",
-                  //   height: "100%",
-                  //   backgroundSize: "cover",
-                  // }}
-                >
+                <div className="headingBg z-10 px-8">
                   <h1 className=" text-black relative top16 font-bold mx-4 text-5xl lg:text-8xl  h-[10vh] ">
                     Development
                   </h1>
@@ -113,15 +105,7 @@ const Backend = () => {
         {/* ====================== >>> Section 1 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 2 Starts Here <<<< ============================== */}
 
-        <div
-          className="bg-[#D2D2DB] relative top-[570px] grid lg:grid-cols-12 gap-8 px-16 items-center justify-center py-8 w-screen overflow-hidden "
-          // style={{
-          //   backgroundImage: `url(${BgImage2})`,
-          //   backgroundPosition: "center",
-
-          //   backgroundSize: "cover",
-          // }}
-        >
+        <div className="bg-[#D2D2DB] relative top-[570px] lg:top-[400px] xl:top-[570px] grid lg:grid-cols-12 gap-8 px-16 items-center justify-center py-8 w-screen overflow-hidden ">
           <div className="col-span-6 xl:col-span-4 ">
             <img
               src={Sec2Img}
@@ -189,7 +173,7 @@ const Backend = () => {
         {/* ====================== >>> Section 2 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 3 Starts Here <<<< ============================== */}
 
-        <div className="bg-[#D2D2DB] relative top-[600px]  h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center px-8">
+        <div className="bg-[#D2D2DB] relative top-[600px] lg:top-[500px] xl:top-[600px]  h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center px-8">
           <h1 className=" text-3xl py-2 lg:text-4xl px-8 text-black font-semibold futura_heavy">
             Transforming Businesses through Smart Software Solutions and
             Committed Development Teams.
@@ -204,7 +188,7 @@ const Backend = () => {
               return (
                 <div
                   key={index}
-                  className=" bg-white mx-10  py-8 rounded-xl drop-shadow-xl"
+                  className=" bg-white mx-6  py-8 rounded-xl drop-shadow-xl"
                 >
                   <div className="flex flex-col  items-center justify-center">
                     <img
@@ -230,7 +214,7 @@ const Backend = () => {
 
         {/* ====================== >>> Section 3 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 4 Starts Here <<<< ============================== */}
-        <div className="w-screen bg-[#D2D2DB] relative top-[600px]  h-auto items-center   justify-center  overflow-hidden py-24">
+        <div className="w-screen bg-[#D2D2DB] relative top-[600px] lg:top-[500px] xl:top-[600px]  h-auto items-center   justify-center  overflow-hidden py-24">
           <h1 className="text-3xl text-center font-bold text-black  futura_heavy">
             Why Choose Amar Tech for Software Development Services?
           </h1>
@@ -296,8 +280,8 @@ const Backend = () => {
         </div>
         {/* ====================== >>> Section 4 End Here <<<< ============================== */}
         {/* ====================== >>> Section 5 Starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] pt-12 relative top-[600px]  h-auto  py-12">
-          <h1 className="text-4xl text-center   text-black font-semibold  futura_heavy">
+        <div className="bg-[#D2D2DB] pt-12 relative top-[600px] lg:top-[500px] xl:top-[600px]  h-auto  py-12">
+          <h1 className="text-4xl text-center   text-black font-semibold  futura_heavy  w-11/12 mx-auto">
             How Amartech Organize A Smooth Workflow For Their Clients?
           </h1>
           <div className="pt-8">
@@ -306,7 +290,7 @@ const Backend = () => {
         </div>
         {/* ====================== >>> Section 5 Ends Here <<<< ==============================
              {/* ====================== >>> Section 6 starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] relative top-[600px]  pt-4 pb-5 grid grid-col-1 justify-center">
+        <div className="bg-[#D2D2DB] relative top-[600px] lg:top-[500px] xl:top-[600px]  pt-4 pb-5 grid grid-col-1 justify-center">
           <div className="bg-[#053F74] w-auto xl:w-[750px] rounded-3xl p-4  flex flex-col items-center justify-center mx-6">
             <h1 className="text-4xl max-sm:text-3xl text-center text-[#D2D2DB] font-bold pt-12 max-sm:pt-8 maven-pro-regular ">
               Want To Shape Your Business?
@@ -323,7 +307,7 @@ const Backend = () => {
         </div>
 
         {/* ====================== >>> Section 6 Ends Here <<<< ============================== */}
-        <div className=" bg-[#053F74] relative top-[600px]  p-4 w-100  h-auto mx-auto   mySubContainerClass">
+        <div className=" bg-[#053F74] relative top-[600px] lg:top-[500px] xl:top-[600px]  p-4 w-100  h-auto mx-auto   mySubContainerClass">
           <MainFooter />
         </div>
       </div>
