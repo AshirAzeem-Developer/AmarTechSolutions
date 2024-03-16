@@ -29,6 +29,7 @@ const Services = () => {
       description:
         "This includes expertise in Java, Spring, Spring Boot, and working with messaging technologies like Kafka and RabbitMQ fo building robust and  scalable backend systems",
       altText: "Backend Picture",
+      src:"/serviceDetails"
     },
     {
       iconSrc: FrontEnd,
@@ -36,6 +37,8 @@ const Services = () => {
       description:
         " Skills in building user interfaces using technologies like React for creating responsive and interactive web applications",
       altText: "Frontend Picture",
+      src:"/Frontend"
+
     },
     {
       iconSrc: Database,
@@ -84,7 +87,7 @@ const Services = () => {
                   setHoveredIndex(null),
                   handleHover(setHover(false)),
                 ]}
-                onClick={() => navigate("/serviceDetails")}
+                onClick={()=>navigate(x.src)}
               >
                 <div
                   className={`relative ${

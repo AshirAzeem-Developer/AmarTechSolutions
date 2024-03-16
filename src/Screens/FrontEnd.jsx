@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import BgVideo from "../assets/Backend/Video/Backend.mp4";
+import BgVideo from "../assets/FrontEnd/Video/Frontend.mp4";
 // import BgImage2 from "../assets/Backend/PNGFilesOfElements/Bg2.png";
 // import BgImage from "../assets/Backend/PNGFilesOfElements/Bg1.png";
 import Sec2Img from "../assets/FrontEnd/Images/pexels-fauxels-3183172.jpg";
