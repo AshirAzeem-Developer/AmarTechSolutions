@@ -20,7 +20,7 @@ export default function CustomizedTimeline() {
             <h1 className="text-4xl">1</h1>
           </div>
           <div className="sm:col-span-8 col-span-3 w-full mx-4">
-            <h1 className="text-4xl my-2 maven-pro-bold text-black maven-pro-bold">
+            <h1 className="text-2xl md:text-2xl lg:text-3xl xl:text-4xl my-2 maven-pro-bold text-black maven-pro-bold">
               Team Expertise
             </h1>
             <p className="text-xl maven-pro-regular text-black/80  ">
@@ -39,7 +39,7 @@ export default function CustomizedTimeline() {
             <h1 className="text-4xl">2</h1>
           </div>
           <div className="sm:col-span-8 col-span-3 w-full mx-4">
-            <h1 className="text-4xl my-2 maven-pro-bold text-black ">
+            <h1 className="text-2xl md:text-2xl lg:text-3xl xl:text-4xl my-2 maven-pro-bold text-black ">
               Quality Assurance
             </h1>
             <p className="text-xl maven-pro-regular text-black/80">
@@ -57,7 +57,7 @@ export default function CustomizedTimeline() {
             <h1 className="text-4xl">3</h1>
           </div>
           <div className="sm:col-span-8 col-span-3 w-full mx-4">
-            <h1 className="text-4xl my-2 font-bold text-black">
+            <h1 className="text-2xl md:text-2xl lg:text-3xl xl:text-4xl my-2 font-bold text-black">
               Continues Learning
             </h1>
             <p className="text-xl maven-pro-regular text-black/80">
@@ -76,7 +76,7 @@ export default function CustomizedTimeline() {
             <h1 className="text-4xl">4</h1>
           </div>
           <div className="sm:col-span-8 col-span-3 w-full mx-4">
-            <h1 className="text-4xl my-2 maven-pro-bold text-black">
+            <h1 className="text-2xl md:text-2xl lg:text-3xl xl:text-4xl my-2 maven-pro-bold text-black">
               Scalability
             </h1>
             <p className="text-xl maven-pro-regular text-black/80">
@@ -94,7 +94,7 @@ export default function CustomizedTimeline() {
             <h1 className="text-4xl">5</h1>
           </div>
           <div className="sm:col-span-8 col-span-3 w-full mx-4">
-            <h1 className="text-4xl my-2 maven-pro-bold text-black">
+            <h1 className="text-2xl md:text-2xl lg:text-3xl xl:text-4xl my-2 maven-pro-bold text-black">
               Feedback & Improvement
             </h1>
             <p className="text-xl maven-pro-regular text-black/80">
