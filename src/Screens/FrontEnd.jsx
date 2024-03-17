@@ -64,7 +64,7 @@ const FrontEnd = () => {
   ];
   return (
     <>
-      <div className="bg-[#D2D2DB] overflow-hidden">
+      <div className="bg-[#D2D2DB] ">
         {/* ====================== >>> Section 1 Starts Here <<<< ============================== */}
         <div className="bg-[#D2D2DB] grid grid-rows-2 w-screen overflow-hidden ">
           <div
@@ -289,7 +289,7 @@ const FrontEnd = () => {
         {/* ====================== >>> Section 4 End Here <<<< ============================== */}
         {/* ====================== >>> Section 5 Starts Here <<<< ============================== */}
         <div className="bg-[#D2D2DB] pt-12 relative top-[600px] lg:top-[500px] xl:top-[600px]  h-auto  py-12 self-center ">
-          <h1 className="text-2xl lg:text-4xl text-center   text-black font-semibold  futura_heavy w-11/12 mx-auto">
+          <h1 className="text-4xl text-center   text-black font-semibold  futura_heavy w-11/12 mx-auto">
             How Amartech Organize A Smooth Workflow For Their Clients?
           </h1>
           <div className="pt-8">

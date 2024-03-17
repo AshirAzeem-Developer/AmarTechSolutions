@@ -17,7 +17,7 @@ const MainFooter = () => {
     <>
       {/* ================= >>> Footer <<< ================ */}
       <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 items-center gap-6 justify-center py-10 overflow-hidden">
-        <div className="w-full grid grid-cols-1 items-center justify-center gap-2  px-10 py-2 mx-auto">
+        <div className="w-full grid grid-cols-1 items-center justify-center gap-2 mx-4 px-10 py-2">
           <img
             src={Logo}
             className="lg:w-[60%] md:w-[50%] sm:w-[40%] w-[40%]  "
@@ -33,7 +33,7 @@ const MainFooter = () => {
             tools and knowledge, which make it easy for us to innovate.
           </p>
         </div>
-        <div className=" py-4 h-full md:border-l-4 border-dotted flex flex-col items-start justify-center mx-auto lg:px-20 md:px-15 sm:px-4 ">
+        <div className="py-4 h-full md:border-l-4 border-dotted flex flex-col items-start justify-center mx-8 lg:px-20 md:px-15 sm:px-4 w-full">
           <div
             className="flex flex-row items-start justify-center p-2 "
             data-aos="slide-down"
