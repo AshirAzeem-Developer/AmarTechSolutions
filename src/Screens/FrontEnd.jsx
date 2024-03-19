@@ -62,6 +62,32 @@ const FrontEnd = () => {
         "With our exceptional UI/UX design services, we help you show off your brand's finest and exceed user expectations. Let’s collaborate to establish long-term customer retention strategies and real, human-centered brand identities that have a direct impact on today's digital landscape.",
     },
   ];
+  let softwareDevelopmentServices = [
+    {
+      serviceImage: andriod,
+      title: "Android App Development",
+      description:
+        "We use Kotlin and Java technologies; our Android app developers build apps that work pretty well on all Android devices. From design to development, every feature of the app is meticulously designed with a user-centric approach.",
+    },
+    {
+      serviceImage: ios,
+      title: "iOS App Development",
+      description:
+        "Whether it’s the latest iPhone, iPad, or Apple watch, our iOS app developers know how to create robust iOS apps from Object C and Swift. With a professional iOS app, you’ll increase your reach in no time.",
+    },
+    {
+      serviceImage: pwa,
+      title: "Progressive Web Apps (PWAs)",
+      description:
+        "Our mobile app developers have the expertise to design and develop Progressive Web Apps (PWAs) that will enhance your offline functionality. No download necessary,these apps will run directly from the server.",
+    },
+    {
+      serviceImage: cross,
+      title: "Cross Platform Compatibility",
+      description:
+        "The core focus of our UI/UX design is the principles that are tested and tried by dozens of clients. By designing and delivering responsive and cross-platform compatible designs, we ensure that they work on any platform.",
+    },
+  ];
   return (
     <>
       <div className="bg-[#D2D2DB] ">
@@ -181,12 +207,12 @@ const FrontEnd = () => {
         {/* ====================== >>> Section 2 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 3 Starts Here <<<< ============================== */}
 
-        <div className="bg-[#D2D2DB] relative top-[600px] lg:top-[500px] xl:top-[600px]  h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center px-8">
-          <h1 className=" text-3xl py-2 lg:text-4xl px-8 text-black font-semibold futura_heavy">
+        <div className="bg-[#D2D2DB] relative top-[600px] lg:top-[400px] xl:top-[600px]  h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center px-8">
+          <h1 className=" text-3xl py-2 lg:text-3xl xl:text-4xl px-8 text-black font-semibold futura_heavy">
             Transforming Businesses through Smart Software Solutions and
             Committed Development Teams.
           </h1>
-          <h3 className="text-black text-lg lg:text-2xl px-8 my-4 py-2 futura_book ">
+          <h3 className="text-black text-lg lg:text-xl xl:text-2xl px-8 my-4 py-2 futura_book ">
             Our team at Amar Tech has skilled and data driven software
             developers which aim to create long-term value with our excellent
             software development services.
@@ -196,21 +222,21 @@ const FrontEnd = () => {
               return (
                 <div
                   key={index}
-                  className=" bg-white mx-6  py-8 rounded-xl drop-shadow-xl"
+                  className=" bg-white mx-6  lg:py-6 xl:py-8 rounded-xl drop-shadow-xl"
                 >
                   <div className="flex flex-col  items-center justify-center">
                     <img
                       src={service.image}
                       alt="imageHere"
-                      className="h-44 drop-shadow-xl"
+                      className="w-[30%] h-auto drop-shadow-xl"
                     />
                   </div>
                   <div className="flex flex-col items-center justify-center ">
-                    <h2 className="text-black text-lg lg:text-lg xl:text-xl font-bold my-3 maven-pro-bold text-center px-2">
+                    <h2 className="text-black text-[1.5rem] lg:text-base xl:text-xl font-bold my-3  maven-pro-bold text-center px-6">
                       {service.title}
                     </h2>
 
-                    <p className="text-black  text-justify text-sm px-10 content-center maven-pro-regular">
+                    <p className="text-black  text-justify lg:text-xs xl:text-lg px-8 content-center maven-pro-regular">
                       {service.describe}
                     </p>
                   </div>
@@ -227,63 +253,29 @@ const FrontEnd = () => {
             Why Choose Amar Tech for Software Development Services?
           </h1>
           <div className="w-screen grid grid-cols-1 sm:grid-cols-2 grid-rows-2   gap-8   items-center justify-between   pt-12 px-12 lg:px-32">
-            <div className="bg-[#F4F4F4] drop-shadow-xl h-[330px] md:h-[320px]     rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
-              <div className="flex flex-row p-4 items-center justify-around  ">
-                <img src={andriod} alt="imageHere" className="h-24  " />
-                <h2 className="text-black  text-xl sm:text-xl md:text-2xl text-center  md:px-8  pt-4 maven-pro-medium">
-                  Android App Development
-                </h2>
-              </div>
+            {softwareDevelopmentServices.map((service, index) => {
+              return (
+                <div
+                  key={index}
+                  className="bg-[#F4F4F4] drop-shadow-xl    rounded-3xl h-[100%] items-center justify-center py-6"
+                >
+                  <div className="flex flex-row p-4 items-center justify-around  ">
+                    <img
+                      src={service.serviceImage}
+                      alt="imageHere"
+                      className="w-[18%] h-auto"
+                    />
+                    <h2 className="text-black  text-xl sm:text-base md:text-lg xl:text-2xl text-center  md:px-8  pt-4 maven-pro-medium">
+                      {service.title}
+                    </h2>
+                  </div>
 
-              <p className="text-black font-medium text-md text-justify px-4 pt-3 content-center maven-pro-regular">
-                We use Kotlin and Java technologies; our Android app developers
-                build apps that work pretty well on all Android devices. From
-                design to development, every feature of the app is meticulously
-                designed with a user-centric approach.
-              </p>
-            </div>
-            <div className="bg-[#F4F4F4] drop-shadow-xl h-[330px]  md:h-[320px]     rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
-              <div className="flex flex-row p-4   items-center justify-around ">
-                <img src={ios} alt="imageHere" className="h-24" />
-                <h2 className="text-black text-xl sm:text-xl md:text-2xl text-center font-medium md:px-8  pt-4 maven-pro-medium">
-                  iOS App Development
-                </h2>
-              </div>
-              <p className="text-black font-medium text-md text-justify px-4 pt-3 content-center maven-pro-regular">
-                Whether it’s the latest iPhone, iPad, or Apple watch, our iOS
-                app developers know how to create robust iOS apps from Object C
-                and Swift. With a professional iOS app, you’ll increase your
-                reach in no time.
-              </p>
-            </div>
-            <div className="bg-[#F4F4F4] drop-shadow-xl h-[330px]  md:h-[320px]     rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
-              <div className="flex flex-row p-4  items-center justify-around  ">
-                <img src={pwa} alt="imageHere" className="h-24" />
-                <h2 className="text-black text-xl sm:text-xl md:text-2xl text-center font-medium md:px-8  pt-4 maven-pro-medium">
-                  Progressive Web Apps (PWAs)
-                </h2>
-              </div>
-              <p className="text-black font-medium text-md text-justify px-4 pt-3 content-center maven-pro-regular">
-                Our mobile app developers have the expertise to design and
-                develop Progressive Web Apps (PWAs) that will enhance your
-                offline functionality. No download necessary; these apps will
-                run directly from the server.
-              </p>
-            </div>
-            <div className="bg-[#F4F4F4] drop-shadow-xl h-[330px]  md:h-[320px]     rounded-3xl sm:h-[400px] lg:h-[300px] items-center justify-center">
-              <div className="flex flex-row p-4 items-center justify-around   ">
-                <img src={cross} alt="imageHere" className="h-24" />
-                <h2 className="text-black text-xl sm:text-xl md:text-2xl text-center font-medium md:px-8  pt-4 maven-pro-medium">
-                  Cross Platform Compatibility
-                </h2>
-              </div>
-              <p className="text-black font-medium text-md text-justify px-4 pt-3 content-center maven-pro-regular">
-                The core focus of our UI/UX design is the principles that are
-                tested and tried by dozens of clients. By designing and
-                delivering responsive and cross-platform compatible designs, we
-                ensure that they work on any platform.
-              </p>
-            </div>
+                  <p className="text-black font-medium text-sm  xl:text-base text-justify px-4 pt-3 content-center maven-pro-regular">
+                    {service.description}
+                  </p>
+                </div>
+              );
+            })}
           </div>
         </div>
         {/* ====================== >>> Section 4 End Here <<<< ============================== */}
