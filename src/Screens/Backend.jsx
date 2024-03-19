@@ -200,7 +200,7 @@ const Backend = () => {
         {/* ====================== >>> Section 2 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 3 Starts Here <<<< ============================== */}
 
-        <div className="bg-[#D2D2DB] relative top-[600px] lg:top-[400px] xl:top-[600px]  h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center px-8">
+        <div className="bg-[#D2D2DB] relative top-[600px] lg:top-[450px] xl:top-[600px]  h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center px-8">
           <h1 className=" text-3xl py-2 lg:text-3xl xl:text-4xl px-8 text-black font-semibold futura_heavy">
             Transforming Businesses through Smart Software Solutions and
             Committed Development Teams.
@@ -241,7 +241,7 @@ const Backend = () => {
 
         {/* ====================== >>> Section 3 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 4 Starts Here <<<< ============================== */}
-        <div className="w-screen bg-[#D2D2DB] relative top-[600px] lg:top-[400px] xl:top-[600px]  h-auto items-center   justify-center  overflow-hidden py-24">
+        <div className="w-screen bg-[#D2D2DB] relative top-[600px] lg:top-[450px] xl:top-[600px]  h-auto items-center   justify-center  overflow-hidden py-24">
           <h1 className="text-3xl text-center font-bold text-black  futura_heavy">
             Why Choose Amar Tech for Software Development Services?
           </h1>
@@ -273,7 +273,7 @@ const Backend = () => {
         </div>
         {/* ====================== >>> Section 4 End Here <<<< ============================== */}
         {/* ====================== >>> Section 5 Starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] pt-12 relative top-[600px] lg:top-[400px] xl:top-[600px]  h-auto  py-12">
+        <div className="bg-[#D2D2DB] pt-12 relative top-[600px] lg:top-[450px] xl:top-[600px]  h-auto  py-12">
           <h1 className="text-4xl text-center   text-black font-semibold  futura_heavy  w-11/12 mx-auto">
             How Amartech Organize A Smooth Workflow For Their Clients?
           </h1>

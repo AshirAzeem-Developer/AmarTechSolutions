@@ -109,20 +109,12 @@ const FrontEnd = () => {
               className=" object-cover h-[70vh] w-full row-span-10 "
             ></video>
             <div className="w-screen h-auto row-span-2 ">
-              <div className=" relative -top-14  lg:-top-[95px] xl:-top-24">
-                <h1 className="text-white font-extrabold mx-4 text-5xl lg:text-8xl px-8">
+              <div className=" relative -top-14  lg:-top-[65px] xl:-top-[65px]">
+                <h1 className="text-white font-extrabold mx-4 text-5xl lg:text-6xl px-8">
                   FrontEnd
                 </h1>
-                <div
-                  className="headingBg z-10 px-8"
-                  // style={{
-                  //   backgroundImage: `url(${BgImage})`,
-                  //   backgroundPosition: "center",
-                  //   height: "100%",
-                  //   backgroundSize: "cover",
-                  // }}
-                >
-                  <h1 className=" text-black relative top16 font-bold mx-4 text-5xl lg:text-8xl  h-[10vh] ">
+                <div className="headingBg z-10 px-8">
+                  <h1 className=" text-black relative top16 font-bold mx-4 text-5xl lg:text-6xl  h-[10vh] ">
                     Development
                   </h1>
                   <p></p>
@@ -207,7 +199,7 @@ const FrontEnd = () => {
         {/* ====================== >>> Section 2 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 3 Starts Here <<<< ============================== */}
 
-        <div className="bg-[#D2D2DB] relative top-[600px] lg:top-[400px] xl:top-[600px]  h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center px-8">
+        <div className="bg-[#D2D2DB] relative top-[600px] lg:top-[450px] xl:top-[600px]  h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center px-8">
           <h1 className=" text-3xl py-2 lg:text-3xl xl:text-4xl px-8 text-black font-semibold futura_heavy">
             Transforming Businesses through Smart Software Solutions and
             Committed Development Teams.
@@ -248,7 +240,7 @@ const FrontEnd = () => {
 
         {/* ====================== >>> Section 3 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 4 Starts Here <<<< ============================== */}
-        <div className="w-screen bg-[#D2D2DB] relative top-[600px] lg:top-[500px] xl:top-[600px]  h-auto items-center   justify-center  overflow-hidden py-24">
+        <div className="w-screen bg-[#D2D2DB] relative top-[600px] lg:top-[450px] xl:top-[600px]  h-auto items-center   justify-center  overflow-hidden py-24">
           <h1 className="text-3xl text-center font-bold text-black  futura_heavy">
             Why Choose Amar Tech for Software Development Services?
           </h1>
@@ -280,7 +272,7 @@ const FrontEnd = () => {
         </div>
         {/* ====================== >>> Section 4 End Here <<<< ============================== */}
         {/* ====================== >>> Section 5 Starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] pt-12 relative top-[600px] lg:top-[500px] xl:top-[600px]  h-auto  py-12 self-center ">
+        <div className="bg-[#D2D2DB] pt-12 relative top-[600px] lg:top-[450px] xl:top-[600px]  h-auto  py-12 self-center ">
           <h1 className="text-4xl text-center   text-black font-semibold  futura_heavy w-11/12 mx-auto">
             How Amartech Organize A Smooth Workflow For Their Clients?
           </h1>
@@ -290,7 +282,7 @@ const FrontEnd = () => {
         </div>
         {/* ====================== >>> Section 5 Ends Here <<<< ==============================
              {/* ====================== >>> Section 6 starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] relative top-[600px] lg:top-[500px] xl:top-[600px]  pt-4 pb-5 grid grid-col-1 justify-center">
+        <div className="bg-[#D2D2DB] relative top-[600px] lg:top-[450px] xl:top-[600px]  pt-4 pb-5 grid grid-col-1 justify-center">
           <div className="bg-[#053F74] w-auto xl:w-[750px] rounded-3xl p-4  flex flex-col items-center justify-center mx-6">
             <h1 className="text-4xl max-sm:text-3xl text-center text-[#D2D2DB] font-bold pt-12 max-sm:pt-8 maven-pro-regular ">
               Want To Shape Your Business?
@@ -307,7 +299,7 @@ const FrontEnd = () => {
         </div>
 
         {/* ====================== >>> Section 6 Ends Here <<<< ============================== */}
-        <div className=" bg-[#053F74] relative top-[600px] lg:top-[500px] xl:top-[600px]  p-4 w-100  h-auto mx-auto   mySubContainerClass">
+        <div className=" bg-[#053F74] relative top-[600px] lg:top-[450px] xl:top-[600px]  p-4 w-100  h-auto mx-auto   mySubContainerClass">
           <MainFooter />
         </div>
       </div>
