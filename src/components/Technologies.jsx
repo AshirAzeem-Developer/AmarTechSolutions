@@ -7,7 +7,7 @@ import elastic from "../assets/elasticsearch.png";
 import mariadb from "../assets/maria.png";
 import kafka from "../assets/kafkalogo.png";
 import Logstash from "../assets/logs.png";
-import java from "../assets/javalogo.png";
+import java from "../assets/java.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
