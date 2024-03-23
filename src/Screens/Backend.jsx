@@ -107,19 +107,19 @@ const Backend = () => {
               autoPlay
               loop
               muted
-              className=" object-cover h-[70vh] w-full row-span-10 "
+              className=" object-cover h-[80vh] w-screen row-span-10 "
             ></video>
-            <div className="w-screen h-auto row-span-2 ">
+            <div className="w-screen h-auto row-span-2 container  mx-auto px-[8%]">
               <div className=" relative -top-14  lg:-top-[65px] xl:-top-[65px]">
-                <h1 className="text-white font-extrabold mx-4 text-5xl lg:text-6xl px-8">
+                <h1 className="text-white font-extrabold  text-5xl lg:text-6xl ">
                   Backend
                 </h1>
-                <div className="headingBg z-10 px-8">
-                  <h1 className=" text-black relative top16 font-bold mx-4 text-5xl lg:text-6xl  h-[10vh] ">
+                <div className="headingBg z-10 ">
+                  <h1 className=" text-black  font-bold  text-5xl lg:text-6xl  h-[10vh] ">
                     Development
                   </h1>
                   <p></p>
-                  <p className="text-black font-bold pt-12 text-2xl px-8">
+                  <p className="text-black font-bold pt-12 text-xl  -mt-12">
                     Crafting high-quality software solutions that support growth
                     strategies which involves redefining the architecture of
                     your software with superior backend development services.
@@ -132,29 +132,29 @@ const Backend = () => {
         {/* ====================== >>> Section 1 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 2 Starts Here <<<< ============================== */}
 
-        <div className="bg-[#D2D2DB] relative top-[570px] lg:top-[400px] xl:top-[570px] grid lg:grid-cols-12 gap-8 px-16 items-center justify-center py-8 w-screen overflow-hidden ">
+        <div className="container  mx-auto px-[6%] bg-[#D2D2DB] relative top-[570px] lg:top-[320px] xl:top-[570px] grid lg:grid-cols-12 gap-8  items-center justify-center py-8 overflow-hidden ">
           <div className="col-span-6 xl:col-span-4 ">
             <img
               src={Sec2Img}
               alt="ImageHere"
-              className=" h-full lg:h-2/3 xl:h-[38rem] object-cover"
+              className=" h-full lg:h-[25rem] xl:h-[34rem] object-cover"
             />
           </div>
-          <div className="col-span-6  xl:col-span-8 py-6">
+          <div className="col-span-6  xl:col-span-8 py-6  ">
             <div className="flex flex-col items-center justify-center">
-              <h1 className="my-1 text-2xl  text-black">
+              <h1 className="my-1 text-xl  text-black">
                 Our goal is to ensure the reliability, scalability, and security
                 of the company's software systems.
               </h1>
               <br />
-              <h1 className="my-1 text-2xl  text-black">
+              <h1 className="my-1 text-xl  text-black">
                 We design superior backend development services with industry
                 best practices and agile principles in mind to ensure the
                 creation of high-quality solutions that are capable of
                 supporting and enhancing your business objectives.
               </h1>
               <br />
-              <h1 className="my-1 text-2xl  text-black">
+              <h1 className="my-1 text-xl  text-black">
                 Amartech uses a wide range of diverse array of technologies,
                 frameworks, programming languages, and tools to provide
                 advanced, top-notch, and easily scalable solutions to customers
@@ -162,33 +162,53 @@ const Backend = () => {
               </h1>
             </div>
 
-            <div className="bg-white rounded-md w-full h-auto grid grid-cols-3 lg:grid-cols-5  px-2 mt-6">
+            <div className="bg-white rounded-md w-full h-auto grid grid-cols-3 lg:grid-cols-5 p-5 px-2 mt-6">
               <div className="flex flex-col items-center justify-center">
-                <img src={Lang1} alt="ImageHere" className="h-1/3 lg:h-[40%]" />
+                <img
+                  src={Lang1}
+                  alt="ImageHere"
+                  className="h-[15rem] lg:h-[4rem] w-auto"
+                />
                 <h1 className="text-black text-lg font-bold futura_book">
                   Java
                 </h1>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <img src={Lang2} alt="ImageHere" className="h-1/3 lg:h-[40%]" />
+                <img
+                  src={Lang2}
+                  alt="ImageHere"
+                  className="h-[15rem] lg:h-[4rem] w-auto"
+                />
                 <h1 className="text-black text-lg font-bold futura_book">
                   NodJs
                 </h1>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <img src={Lang3} alt="ImageHere" className="h-1/3 lg:h-[40%]" />
+                <img
+                  src={Lang3}
+                  alt="ImageHere"
+                  className="h-[15rem] lg:h-[4rem] w-auto"
+                />
                 <h1 className="text-black text-lg font-bold futura_book">
                   Python
                 </h1>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <img src={Lang4} alt="ImageHere" className="h-1/3 lg:h-[40%]" />
+                <img
+                  src={Lang4}
+                  alt="ImageHere"
+                  className="h-[15rem] lg:h-[4rem] w-auto"
+                />
                 <h1 className="text-black text-lg font-bold futura_book">
                   PHP
                 </h1>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <img src={Lang5} alt="ImageHere" className="h-1/3 lg:h-2/4" />
+                <img
+                  src={Lang5}
+                  alt="ImageHere"
+                  className="h-[15rem] lg:h-[4rem] w-auto"
+                />
                 <h1 className="text-black text-lg font-bold futura_book">
                   C++
                 </h1>
@@ -200,8 +220,8 @@ const Backend = () => {
         {/* ====================== >>> Section 2 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 3 Starts Here <<<< ============================== */}
 
-        <div className="bg-[#D2D2DB] relative top-[600px] lg:top-[450px] xl:top-[600px]  h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center px-8">
-          <h1 className=" text-3xl py-2 lg:text-3xl xl:text-4xl px-8 text-black font-semibold futura_heavy">
+        <div className="container  mx-auto px-[6%] bg-[#D2D2DB] relative top-[600px] lg:top-[450px] xl:top-[600px]  h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center ">
+          <h1 className=" text-3xl py-2 lg:text-3xl xl:text-4xl px-8 text-black font-semibold futura_heavy text-center">
             Transforming Businesses through Smart Software Solutions and
             Committed Development Teams.
           </h1>
@@ -210,18 +230,18 @@ const Backend = () => {
             developers which aim to create long-term value with our excellent
             software development services.
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 ">
             {services.map((service, index) => {
               return (
                 <div
                   key={index}
-                  className=" bg-white mx-6  lg:py-6 xl:py-8 rounded-xl drop-shadow-xl"
+                  className=" bg-white mx-6  lg:py-6 xl:py-8 rounded-xl drop-shadow-xl  "
                 >
                   <div className="flex flex-col  items-center justify-center">
                     <img
                       src={service.image}
                       alt="imageHere"
-                      className="w-[30%] h-auto drop-shadow-xl"
+                      className="w-[35%] h-auto drop-shadow-xl"
                     />
                   </div>
                   <div className="flex flex-col items-center justify-center ">
@@ -229,7 +249,7 @@ const Backend = () => {
                       {service.title}
                     </h2>
 
-                    <p className="text-black  text-justify lg:text-xs xl:text-lg px-8 content-center maven-pro-regular ">
+                    <p className="text-black  text-justify  px-8 content-center maven-pro-regular ">
                       {service.describe}
                     </p>
                   </div>
@@ -241,22 +261,22 @@ const Backend = () => {
 
         {/* ====================== >>> Section 3 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 4 Starts Here <<<< ============================== */}
-        <div className="w-screen bg-[#D2D2DB] relative top-[600px] lg:top-[450px] xl:top-[600px]  h-auto items-center   justify-center  overflow-hidden py-24">
+        <div className="container mx-auto  bg-[#D2D2DB] relative top-[600px] lg:top-[450px] xl:top-[600px]  h-auto items-center   justify-center  overflow-hidden py-24">
           <h1 className="text-3xl text-center font-bold text-black  futura_heavy">
             Why Choose Amar Tech for Software Development Services?
           </h1>
-          <div className="w-screen grid grid-cols-1 sm:grid-cols-2 grid-rows-2   gap-8   items-center justify-between   pt-12 px-12 lg:px-32">
+          <div className="container  mx-auto px-[8%] w-screen grid grid-cols-1 sm:grid-cols-2 grid-rows-2   gap-8   items-center justify-between   pt-12  ">
             {softwareDevelopmentServices.map((service, index) => {
               return (
                 <div
                   key={index}
-                  className="bg-[#F4F4F4] drop-shadow-xl    rounded-3xl h-[100%] items-center justify-center py-6"
+                  className="bg-[#F4F4F4] drop-shadow-xl    rounded-3xl h-[100%] items-center justify-center py-6 mx-8"
                 >
                   <div className="flex flex-row p-4 items-center justify-around  ">
                     <img
                       src={service.serviceImage}
                       alt="imageHere"
-                      className="w-[18%] h-auto"
+                      className="w-[15%] h-auto drop-shadow-xl"
                     />
                     <h2 className="text-black  text-xl sm:text-base md:text-lg xl:text-2xl text-center  md:px-8  pt-4 maven-pro-medium">
                       {service.title}
@@ -273,7 +293,7 @@ const Backend = () => {
         </div>
         {/* ====================== >>> Section 4 End Here <<<< ============================== */}
         {/* ====================== >>> Section 5 Starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] pt-12 relative top-[600px] lg:top-[450px] xl:top-[600px]  h-auto  py-12">
+        <div className=" bg-[#D2D2DB] pt-12 relative top-[600px] lg:top-[450px] xl:top-[600px]  h-auto  py-12 ">
           <h1 className="text-4xl text-center   text-black font-semibold  futura_heavy  w-11/12 mx-auto">
             How Amartech Organize A Smooth Workflow For Their Clients?
           </h1>

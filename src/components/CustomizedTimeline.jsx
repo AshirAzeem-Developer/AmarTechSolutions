@@ -11,7 +11,7 @@ import "react-vertical-timeline-component/style.min.css";
 export default function CustomizedTimeline() {
   return (
     <>
-      <div className="bg-[#D2D2DB]  flex flex-col items-end justify-center px-8">
+      <div className="bg-[#D2D2DB]  flex flex-col items-end justify-center container mx-auto px-[6%] ">
         <div className=" bg-[#F6F6F6] rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4 ">
           <div className="col-span-2">
             <img src={Team} alt="imageHere" className="h-auto w-36" />
@@ -20,10 +20,10 @@ export default function CustomizedTimeline() {
             <h1 className="text-4xl">1</h1>
           </div>
           <div className="sm:col-span-8 col-span-3 w-full mx-4">
-            <h1 className="text-2xl md:text-2xl lg:text-3xl xl:text-4xl my-2 maven-pro-bold text-black maven-pro-bold">
+            <h1 className="text-xl md:text-xl lg:text-2xl xl:text-3xl my-2 maven-pro-bold text-black maven-pro-bold">
               Team Expertise
             </h1>
-            <p className="text-xl maven-pro-regular text-black/80  ">
+            <p className="text-lg maven-pro-regular text-black/80  ">
               Assemble a team of experienced software developers, architects,
               and digital consultants who are skilled in the relevant
               technologies and have a track record of successful projects.
@@ -39,10 +39,10 @@ export default function CustomizedTimeline() {
             <h1 className="text-4xl">2</h1>
           </div>
           <div className="sm:col-span-8 col-span-3 w-full mx-4">
-            <h1 className="text-2xl md:text-2xl lg:text-3xl xl:text-4xl my-2 maven-pro-bold text-black ">
+            <h1 className="text-xl md:text-xl lg:text-2xl xl:text-3xl my-2 maven-pro-bold text-black maven-pro-bold">
               Quality Assurance
             </h1>
-            <p className="text-xl maven-pro-regular text-black/80">
+            <p className="text-lg maven-pro-regular text-black/80">
               Implement robust quality assurance and testing processes to ensure
               the reliability and security of the software you deliver.
             </p>
@@ -57,10 +57,10 @@ export default function CustomizedTimeline() {
             <h1 className="text-4xl">3</h1>
           </div>
           <div className="sm:col-span-8 col-span-3 w-full mx-4">
-            <h1 className="text-2xl md:text-2xl lg:text-3xl xl:text-4xl my-2 font-bold text-black">
+            <h1 className="text-xl md:text-xl lg:text-2xl xl:text-3xl my-2 maven-pro-bold text-black maven-pro-bold">
               Continues Learning
             </h1>
-            <p className="text-xl maven-pro-regular text-black/80">
+            <p className="text-lg maven-pro-regular text-black/80">
               The tech industry is ever-evolving. Encourage your team to
               continually learn and adapt to new technologies and best
               practices.
@@ -76,10 +76,10 @@ export default function CustomizedTimeline() {
             <h1 className="text-4xl">4</h1>
           </div>
           <div className="sm:col-span-8 col-span-3 w-full mx-4">
-            <h1 className="text-2xl md:text-2xl lg:text-3xl xl:text-4xl my-2 maven-pro-bold text-black">
+            <h1 className="text-xl md:text-xl lg:text-2xl xl:text-3xl my-2 maven-pro-bold text-black maven-pro-bold">
               Scalability
             </h1>
-            <p className="text-xl maven-pro-regular text-black/80">
+            <p className="text-lg maven-pro-regular text-black/80">
               Plan for scalability so that your business can grow as demand for
               your services increases.
             </p>
@@ -94,10 +94,10 @@ export default function CustomizedTimeline() {
             <h1 className="text-4xl">5</h1>
           </div>
           <div className="sm:col-span-8 col-span-3 w-full mx-4">
-            <h1 className="text-2xl md:text-2xl lg:text-3xl xl:text-4xl my-2 maven-pro-bold text-black">
+            <h1 className="text-xl md:text-xl lg:text-2xl xl:text-3xl my-2 maven-pro-bold text-black maven-pro-bold">
               Feedback & Improvement
             </h1>
-            <p className="text-xl maven-pro-regular text-black/80">
+            <p className="text-lg maven-pro-regular text-black/80">
               Solicit feedback from clients and team members to continuously
               improve your services and processes
             </p>
