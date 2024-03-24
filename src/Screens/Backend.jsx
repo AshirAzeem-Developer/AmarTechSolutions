@@ -109,17 +109,16 @@ const Backend = () => {
               muted
               className=" object-cover h-[80vh] w-screen row-span-10 "
             ></video>
-            <div className="w-screen h-auto row-span-2 container  mx-auto px-[8%]">
+            <div className="w-screen h-auto row-span-2 ">
               <div className=" relative -top-14  lg:-top-[65px] xl:-top-[65px]">
-                <h1 className="text-white font-extrabold  text-5xl lg:text-6xl ">
+                <h1 className="text-white font-extrabold mx-4 text-5xl lg:text-6xl px-8 ">
                   Backend
                 </h1>
-                <div className="headingBg z-10 ">
-                  <h1 className=" text-black  font-bold  text-5xl lg:text-6xl  h-[10vh] ">
+                <div className="headingBg z-10 px-8 ">
+                  <h1 className="text-black relative top16 font-bold mx-4 text-5xl lg:text-6xl  h-[10vh]  ">
                     Development
                   </h1>
-                  <p></p>
-                  <p className="text-black font-bold pt-12 text-xl  -mt-12">
+                  <p className="text-black font-bold max-sm:text-lg pt-12 max-sm:pt-0 text-2xl px-8">
                     Crafting high-quality software solutions that support growth
                     strategies which involves redefining the architecture of
                     your software with superior backend development services.
@@ -132,7 +131,7 @@ const Backend = () => {
         {/* ====================== >>> Section 1 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 2 Starts Here <<<< ============================== */}
 
-        <div className="container  mx-auto px-[6%] bg-[#D2D2DB] relative top-[570px] lg:top-[320px] xl:top-[570px] grid lg:grid-cols-12 gap-8  items-center justify-center py-8 overflow-hidden ">
+        <div className="bg-[#D2D2DB] relative top-[570px] lg:top-[400px] xl:top-[570px] grid lg:grid-cols-12 gap-8 px-14 mt-5  max-sm:mt-44  items-center justify-center py-8 w-screen overflow-hidden ">
           <div className="col-span-6 xl:col-span-4 ">
             <img
               src={Sec2Img}
@@ -162,12 +161,12 @@ const Backend = () => {
               </h1>
             </div>
 
-            <div className="bg-white rounded-md w-full h-auto grid grid-cols-3 lg:grid-cols-5 p-5 px-2 mt-6">
+            <div className="bg-white rounded-md w-full h-auto grid grid-cols-3 lg:grid-cols-5  px-4 mt-6">
               <div className="flex flex-col items-center justify-center">
                 <img
                   src={Lang1}
                   alt="ImageHere"
-                  className="h-[15rem] lg:h-[4rem] w-auto"
+                  className=" h-1/3 lg:h-2/4"
                 />
                 <h1 className="text-black text-lg font-bold futura_book">
                   Java
@@ -177,7 +176,7 @@ const Backend = () => {
                 <img
                   src={Lang2}
                   alt="ImageHere"
-                  className="h-[15rem] lg:h-[4rem] w-auto"
+                  className="h-1/3 lg:h-2/4"
                 />
                 <h1 className="text-black text-lg font-bold futura_book">
                   NodJs
@@ -187,7 +186,7 @@ const Backend = () => {
                 <img
                   src={Lang3}
                   alt="ImageHere"
-                  className="h-[15rem] lg:h-[4rem] w-auto"
+                  className=" h-1/3 lg:h-2/4"
                 />
                 <h1 className="text-black text-lg font-bold futura_book">
                   Python
@@ -197,7 +196,7 @@ const Backend = () => {
                 <img
                   src={Lang4}
                   alt="ImageHere"
-                  className="h-[15rem] lg:h-[4rem] w-auto"
+                  className=" h-1/3 lg:h-2/4"
                 />
                 <h1 className="text-black text-lg font-bold futura_book">
                   PHP
@@ -207,7 +206,7 @@ const Backend = () => {
                 <img
                   src={Lang5}
                   alt="ImageHere"
-                  className="h-[15rem] lg:h-[4rem] w-auto"
+                  className=" h-1/3 lg:h-2/4"
                 />
                 <h1 className="text-black text-lg font-bold futura_book">
                   C++
@@ -220,7 +219,7 @@ const Backend = () => {
         {/* ====================== >>> Section 2 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 3 Starts Here <<<< ============================== */}
 
-        <div className="container  mx-auto px-[6%] bg-[#D2D2DB] relative top-[600px] lg:top-[450px] xl:top-[600px]  h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center ">
+        <div className="max-lg:container bg-[#D2D2DB] relative top-[600px] lg:top-[450px] xl:top-[600px]  h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center px-8">
           <h1 className=" text-3xl py-2 lg:text-3xl xl:text-4xl px-8 text-black font-semibold futura_heavy text-center">
             Transforming Businesses through Smart Software Solutions and
             Committed Development Teams.
@@ -303,13 +302,13 @@ const Backend = () => {
         </div>
         {/* ====================== >>> Section 5 Ends Here <<<< ==============================
              {/* ====================== >>> Section 6 starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] relative top-[600px] lg:top-[500px] xl:top-[600px]  pt-4 pb-5 grid grid-col-1 justify-center">
-          <div className="bg-[#053F74] w-auto xl:w-[750px] rounded-3xl p-4  flex flex-col items-center justify-center mx-6">
+     <div className="bg-[#D2D2DB] relative top-[600px] lg:top-[450px] xl:top-[600px]  pt-4 pb-5 grid grid-col-1 justify-center">
+          <div className="bg-[#053F74]  xl:w-[550px] rounded-3xl p-4  flex flex-col items-center justify-center ">
             <h1 className="text-4xl max-sm:text-3xl text-center text-[#D2D2DB] font-bold pt-12 max-sm:pt-8 maven-pro-regular ">
               Want To Shape Your Business?
             </h1>
             <div className=" max-sm:h-36 rounded-md pt-8 max-sm:pt-4    ">
-              <button className=" bg-[#d2d2db]  p-4 rounded-2xl  pl-5  text-2xl max-sm:text-2xl   flex flex-row text-[#FFFFFF] tomorrow-regular">
+              <button className=" bg-[#d2d2db]  rounded-2xl  pl-5  text-2xl max-sm:text-2xl   flex flex-row text-[#FFFFFF] tomorrow-regular">
                 Start Conversation Now
                 <span>
                   <img src={arrow} alt="imageHere" className="w-14 pl-4" />

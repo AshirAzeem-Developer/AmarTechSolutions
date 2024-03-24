@@ -118,7 +118,7 @@ const FrontEnd = () => {
                     Development
                   </h1>
                   <p></p>
-                  <p className="text-black font-bold pt-12 text-2xl px-8">
+                  <p className="text-black font-bold max-sm:text-lg pt-12 max-sm:pt-0 text-2xl px-8">
                     Delivering unparalleled user experiences through
                     cutting-edge frontend services, redefining digital
                     interactions with seamless innovation
@@ -283,12 +283,12 @@ const FrontEnd = () => {
         {/* ====================== >>> Section 5 Ends Here <<<< ==============================
              {/* ====================== >>> Section 6 starts Here <<<< ============================== */}
         <div className="bg-[#D2D2DB] relative top-[600px] lg:top-[450px] xl:top-[600px]  pt-4 pb-5 grid grid-col-1 justify-center">
-          <div className="bg-[#053F74] w-auto xl:w-[750px] rounded-3xl p-4  flex flex-col items-center justify-center mx-6">
+          <div className="bg-[#053F74]  xl:w-[550px] rounded-3xl p-4  flex flex-col items-center justify-center ">
             <h1 className="text-4xl max-sm:text-3xl text-center text-[#D2D2DB] font-bold pt-12 max-sm:pt-8 maven-pro-regular ">
               Want To Shape Your Business?
             </h1>
             <div className=" max-sm:h-36 rounded-md pt-8 max-sm:pt-4    ">
-              <button className=" bg-[#d2d2db]  p-4 rounded-2xl  pl-5  text-2xl max-sm:text-2xl   flex flex-row text-[#FFFFFF] tomorrow-regular">
+              <button className=" bg-[#d2d2db]  rounded-2xl  pl-5  text-2xl max-sm:text-2xl   flex flex-row text-[#FFFFFF] tomorrow-regular">
                 Start Conversation Now
                 <span>
                   <img src={arrow} alt="imageHere" className="w-14 pl-4" />
