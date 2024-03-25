@@ -111,7 +111,7 @@ const Backend = () => {
               className=" object-cover h-[80vh] w-screen"
             ></video>
           </div>
-          <div className="container mx-auto w-[90%]  relative -top-[10rem] left-0 h-10 ">
+          <div className="container mx-auto w-[90%]  relative -top-[10rem] left-0 sm:h-10 h-fit ">
             <h1 className="text-white font-extrabold mx-4 text-5xl lg:text-6xl px-8  ">
               Backend
             </h1>
@@ -129,14 +129,14 @@ const Backend = () => {
         {/* ====================== >>> Section 2 Starts Here <<<< ============================== */}
 
         <div className="bg-[#D2D2DB] h-full">
-          <div className="container w-[90%] bg-[#D2D2DB] px-14 mt-5  max-sm:mt-44  items-center justify-center py-8  overflow-hidden flex flex-row mx-auto my-6 ">
+          <div className="container w-[90%] bg-[#D2D2DB] px-14 mt-5   items-center justify-center py-8  overflow-hidden flex flex-col sm:flex-row mx-auto my-6 ">
             <img
               src={Sec2Img}
               alt="ImageHere"
-              className="w-[30%]  h-auto object-cover "
+              className="w-[100%] sm:w-[30%]  h-auto object-cover "
             />
 
-            <div className=" container mx-8">
+            <div className=" container mx-8 my-4">
               <div className="flex flex-col items-start justify-center">
                 <h1 className="my-1 text-sm xl:text-xl  text-black">
                   Our goal is to ensure the reliability, scalability, and
@@ -163,7 +163,7 @@ const Backend = () => {
                   <img
                     src={Lang1}
                     alt="ImageHere"
-                    className="h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
+                    className="h-[4rem] sm:h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
                   />
                   <h1 className="text-black text-lg font-bold futura_book">
                     Java
@@ -173,7 +173,7 @@ const Backend = () => {
                   <img
                     src={Lang2}
                     alt="ImageHere"
-                    className="h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
+                    className="h-[4rem] sm:h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
                   />
                   <h1 className="text-black text-lg font-bold futura_book">
                     NodJs
@@ -183,7 +183,7 @@ const Backend = () => {
                   <img
                     src={Lang3}
                     alt="ImageHere"
-                    className="h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
+                    className="h-[4rem] sm:h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
                   />
                   <h1 className="text-black text-lg font-bold futura_book">
                     Python
@@ -193,7 +193,7 @@ const Backend = () => {
                   <img
                     src={Lang4}
                     alt="ImageHere"
-                    className="h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
+                    className="h-[4rem] sm:h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
                   />
                   <h1 className="text-black text-lg font-bold futura_book">
                     PHP
@@ -203,7 +203,7 @@ const Backend = () => {
                   <img
                     src={Lang5}
                     alt="ImageHere"
-                    className="h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
+                    className="h-[4rem] sm:h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
                   />
                   <h1 className="text-black text-lg font-bold futura_book">
                     C++
@@ -232,7 +232,7 @@ const Backend = () => {
               return (
                 <div
                   key={index}
-                  className=" bg-white mx-6  lg:py-6 xl:py-8 rounded-xl drop-shadow-xl  "
+                  className=" bg-white mx-6  lg:py-6 xl:py-8 rounded-xl drop-shadow-xl  py-4"
                 >
                   <div className="flex flex-col  items-center justify-center">
                     <img
