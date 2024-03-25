@@ -137,7 +137,7 @@ const AMNAvbar = () => {
                   >
                     <Phone color="white" size={18} className="mx-2" />
                     <span className="hidden sm:inline text-white ">
-                      <a href="#contactus">Lets Talk</a>
+                      <Link to="/#contactus">Lets Talk</Link>
                     </span>
                   </button>
                 </div>

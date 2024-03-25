@@ -11,8 +11,8 @@ import "react-vertical-timeline-component/style.min.css";
 export default function CustomizedTimeline() {
   return (
     <>
-      <div className="bg-[#D2D2DB]  flex flex-col items-end justify-center container mx-auto px-[6%] ">
-        <div className=" bg-[#F6F6F6] rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4 ">
+      <div className="bg-[#D2D2DB]  flex flex-col items-end justify-center container mx-auto w-[90%] ">
+        <div className=" bg-[#F6F6F6] rounded-xl  p-4 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4 ">
           <div className="col-span-2">
             <img src={Team} alt="imageHere" className="h-auto w-36" />
           </div>
@@ -31,7 +31,7 @@ export default function CustomizedTimeline() {
           </div>
         </div>
 
-        <div className=" rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4">
+        <div className=" rounded-xl  p-4 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4">
           <div className=" col-span-2">
             <img src={quality} alt="imageHere" className="h-auto w-36" />
           </div>
@@ -49,7 +49,7 @@ export default function CustomizedTimeline() {
           </div>
         </div>
 
-        <div className=" bg-[#F6F6F6] rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4  ">
+        <div className=" bg-[#F6F6F6] rounded-xl  p-4 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4  ">
           <div className="col-span-2">
             <img src={contiues} alt="imageHere" className="h-auto w-36" />
           </div>
@@ -68,7 +68,7 @@ export default function CustomizedTimeline() {
           </div>
         </div>
 
-        <div className="rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-1 ">
+        <div className="rounded-xl  p-4 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-1 ">
           <div className="col-span-2 pr-12 max-sm:w-72 ">
             <img src={scale} alt="imageHere" className="h-auto w-36" />
           </div>
@@ -86,7 +86,7 @@ export default function CustomizedTimeline() {
           </div>
         </div>
 
-        <div className=" bg-[#F6F6F6] rounded-xl mx-10 p-6 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4  ">
+        <div className=" bg-[#F6F6F6] rounded-xl  p-4 grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-center px-12 my-4  ">
           <div className="col-span-2">
             <img src={feedback} alt="imageHere" className="h-auto w-36" />
           </div>

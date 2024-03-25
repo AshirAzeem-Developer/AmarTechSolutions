@@ -230,12 +230,12 @@ const AMNavbar = () => {
         <Values />
       </div>
 
-      {/* <div
+      <div
         id="blogs"
         className=" bg-[#2787b7] w-100  md:h-[100vh] lg:h-[100vh] py-16 lg:py-20 mx-auto mySubContainerClass"
       >
         <Blog />
-      </div> */}
+      </div>
 
       <div
         id="contactus"

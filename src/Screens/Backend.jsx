@@ -23,6 +23,7 @@ import arrow from "../assets/Backend/Icons/arrow.png";
 import MainFooter from "../components/MainFooter";
 import LeftAlignedTimeline from "../components/CustomizedTimeline";
 import AMNavbar from "../components/AMNAvbar";
+import "../Backend.css";
 const Backend = () => {
   const [scroll, setScroll] = useState(false);
 
@@ -91,69 +92,64 @@ const Backend = () => {
   ];
   return (
     <>
-      <div className="bg-[#D2D2DB] ">
-        {/* ====================== >>> Section 1 Starts Here <<<< ============================== */}
-        <div className="bg-[#D2D2DB] grid grid-rows-2 w-screen overflow-hidden ">
-          <div
-            className={`sticky top-0  z-10  ${
-              scroll ? " bg-[#0000005a]" : "bg-transparent"
-            }`}
-          >
-            <AMNavbar />
-          </div>
-          <div className="absolute top-0 left-0">
-            <video
-              src={`${BgVideo}`}
-              autoPlay
-              loop
-              muted
-              className=" object-cover h-[80vh] w-screen row-span-10 "
-            ></video>
-            <div className="w-screen h-auto row-span-2 ">
-              <div className=" relative -top-14  lg:-top-[65px] xl:-top-[65px]">
-                <h1 className="text-white font-extrabold mx-4 text-5xl lg:text-6xl px-8 ">
-                  Backend
-                </h1>
-                <div className="headingBg z-10 px-8 ">
-                  <h1 className="text-black relative top16 font-bold mx-4 text-5xl lg:text-6xl  h-[10vh]  ">
-                    Development
-                  </h1>
-                  <p className="text-black font-bold max-sm:text-lg pt-12 max-sm:pt-0 text-2xl px-8">
-                    Crafting high-quality software solutions that support growth
-                    strategies which involves redefining the architecture of
-                    your software with superior backend development services.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+      {/* ====================== >>> Section 1 Starts Here <<<< ============================== */}
+      <div className="bg-[#D2D2DB] w-screen overflow-hidden ">
+        <div
+          className={`sticky top-0  z-10  ${
+            scroll ? " bg-[#0000005a]" : "bg-transparent"
+          }`}
+        >
+          <AMNavbar />
         </div>
-        {/* ====================== >>> Section 1 Ends Here <<<< ============================== */}
-        {/* ====================== >>> Section 2 Starts Here <<<< ============================== */}
+        <div className="relative -top-[6rem] left-0 ">
+          <video
+            src={`${BgVideo}`}
+            autoPlay
+            loop
+            muted
+            className=" object-cover h-[80vh] w-screen"
+          ></video>
+        </div>
+        <div className="container mx-auto w-[90%]  relative -top-[10rem] left-0 h-10 ">
+          <h1 className="text-white font-extrabold mx-4 text-5xl lg:text-6xl px-8  ">
+            Backend
+          </h1>
+          <h1 className="text-black  font-bold mx-4 text-5xl lg:text-6xl mt-4 px-8">
+            Development
+          </h1>
+          <p className="text-black font-bold mx-4   text-2xl px-8 ">
+            Crafting high-quality software solutions that support growth
+            strategies which involves redefining the architecture of your
+            software with superior backend development services.
+          </p>
+        </div>
+      </div>
+      {/* ====================== >>> Section 1 Ends Here <<<< ============================== */}
+      {/* ====================== >>> Section 2 Starts Here <<<< ============================== */}
 
-        <div className="bg-[#D2D2DB] relative top-[570px] lg:top-[400px] xl:top-[570px] grid lg:grid-cols-12 gap-8 px-14 mt-5  max-sm:mt-44  items-center justify-center py-8 w-screen overflow-hidden ">
-          <div className="col-span-6 xl:col-span-4 ">
-            <img
-              src={Sec2Img}
-              alt="ImageHere"
-              className=" h-full lg:h-[25rem] xl:h-[34rem] object-cover"
-            />
-          </div>
-          <div className="col-span-6  xl:col-span-8 py-6  ">
-            <div className="flex flex-col items-center justify-center">
-              <h1 className="my-1 text-xl  text-black">
+      <div className="bg-[#D2D2DB] h-full">
+        <div className="container w-[90%] bg-[#D2D2DB] px-14 mt-5  max-sm:mt-44  items-center justify-center py-8  overflow-hidden flex flex-row mx-auto my-6 ">
+          <img
+            src={Sec2Img}
+            alt="ImageHere"
+            className="w-[30%]  h-auto object-cover "
+          />
+
+          <div className=" container mx-8">
+            <div className="flex flex-col items-start justify-center">
+              <h1 className="my-1 text-sm xl:text-xl  text-black">
                 Our goal is to ensure the reliability, scalability, and security
                 of the company's software systems.
               </h1>
               <br />
-              <h1 className="my-1 text-xl  text-black">
+              <h1 className="my-1 text-sm xl:text-xl  text-black">
                 We design superior backend development services with industry
                 best practices and agile principles in mind to ensure the
                 creation of high-quality solutions that are capable of
                 supporting and enhancing your business objectives.
               </h1>
               <br />
-              <h1 className="my-1 text-xl  text-black">
+              <h1 className="my-1 text-sm xl:text-xl  text-black">
                 Amartech uses a wide range of diverse array of technologies,
                 frameworks, programming languages, and tools to provide
                 advanced, top-notch, and easily scalable solutions to customers
@@ -161,12 +157,12 @@ const Backend = () => {
               </h1>
             </div>
 
-            <div className="bg-white rounded-md w-full h-auto grid grid-cols-3 lg:grid-cols-5  px-4 mt-6">
+            <div className="bg-white rounded-md w-full h-auto grid grid-cols-3 lg:grid-cols-5 p-4 px-1 mt-6">
               <div className="flex flex-col items-center justify-center">
                 <img
                   src={Lang1}
                   alt="ImageHere"
-                  className=" h-1/3 lg:h-2/4"
+                  className="h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
                 />
                 <h1 className="text-black text-lg font-bold futura_book">
                   Java
@@ -176,7 +172,7 @@ const Backend = () => {
                 <img
                   src={Lang2}
                   alt="ImageHere"
-                  className="h-1/3 lg:h-2/4"
+                  className="h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
                 />
                 <h1 className="text-black text-lg font-bold futura_book">
                   NodJs
@@ -186,7 +182,7 @@ const Backend = () => {
                 <img
                   src={Lang3}
                   alt="ImageHere"
-                  className=" h-1/3 lg:h-2/4"
+                  className="h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
                 />
                 <h1 className="text-black text-lg font-bold futura_book">
                   Python
@@ -196,7 +192,7 @@ const Backend = () => {
                 <img
                   src={Lang4}
                   alt="ImageHere"
-                  className=" h-1/3 lg:h-2/4"
+                  className="h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
                 />
                 <h1 className="text-black text-lg font-bold futura_book">
                   PHP
@@ -206,7 +202,7 @@ const Backend = () => {
                 <img
                   src={Lang5}
                   alt="ImageHere"
-                  className=" h-1/3 lg:h-2/4"
+                  className="h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
                 />
                 <h1 className="text-black text-lg font-bold futura_book">
                   C++
@@ -215,113 +211,113 @@ const Backend = () => {
             </div>
           </div>
         </div>
+      </div>
 
-        {/* ====================== >>> Section 2 Ends Here <<<< ============================== */}
-        {/* ====================== >>> Section 3 Starts Here <<<< ============================== */}
+      {/* ====================== >>> Section 2 Ends Here <<<< ============================== */}
+      {/* ====================== >>> Section 3 Starts Here <<<< ============================== */}
 
-        <div className="max-lg:container bg-[#D2D2DB] relative top-[600px] lg:top-[450px] xl:top-[600px]  h-auto py-20 w-screen overflow-hidden flex flex-col items-center justify-center px-8">
-          <h1 className=" text-3xl py-2 lg:text-3xl xl:text-4xl px-8 text-black font-semibold futura_heavy text-center">
-            Transforming Businesses through Smart Software Solutions and
-            Committed Development Teams.
-          </h1>
-          <h3 className="text-black text-lg lg:text-xl xl:text-2xl px-8 my-4 py-2 futura_book ">
-            Our team at Amar Tech has skilled and data driven software
-            developers which aim to create long-term value with our excellent
-            software development services.
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 ">
-            {services.map((service, index) => {
-              return (
-                <div
-                  key={index}
-                  className=" bg-white mx-6  lg:py-6 xl:py-8 rounded-xl drop-shadow-xl  "
-                >
-                  <div className="flex flex-col  items-center justify-center">
-                    <img
-                      src={service.image}
-                      alt="imageHere"
-                      className="w-[35%] h-auto drop-shadow-xl"
-                    />
-                  </div>
-                  <div className="flex flex-col items-center justify-center ">
-                    <h2 className="text-black text-[1.5rem] lg:text-base xl:text-xl font-bold my-3  maven-pro-bold text-center px-6">
-                      {service.title}
-                    </h2>
-
-                    <p className="text-black  text-justify  px-8 content-center maven-pro-regular ">
-                      {service.describe}
-                    </p>
-                  </div>
+      <div className="container mx-auto w-[90%] bg-[#D2D2DB]    h-auto py-20  overflow-hidden flex flex-col items-center justify-center px-8">
+        <h1 className=" text-3xl py-2 lg:text-3xl xl:text-4xl px-8 text-black font-semibold futura_heavy ">
+          Transforming Businesses through Smart Software Solutions and Committed
+          Development Teams.
+        </h1>
+        <h3 className="text-black text-lg lg:text-xl xl:text-2xl px-8 my-4 py-2 futura_book ">
+          Our team at Amar Tech has skilled and data driven software developers
+          which aim to create long-term value with our excellent software
+          development services.
+        </h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 ">
+          {services.map((service, index) => {
+            return (
+              <div
+                key={index}
+                className=" bg-white mx-6  lg:py-6 xl:py-8 rounded-xl drop-shadow-xl  "
+              >
+                <div className="flex flex-col  items-center justify-center">
+                  <img
+                    src={service.image}
+                    alt="imageHere"
+                    className="w-[35%] h-auto drop-shadow-xl"
+                  />
                 </div>
-              );
-            })}
-          </div>
-        </div>
+                <div className="flex flex-col items-center justify-center ">
+                  <h2 className="text-black text-[1.5rem] lg:text-base xl:text-xl font-bold my-3  maven-pro-bold text-center px-6">
+                    {service.title}
+                  </h2>
 
-        {/* ====================== >>> Section 3 Ends Here <<<< ============================== */}
-        {/* ====================== >>> Section 4 Starts Here <<<< ============================== */}
-        <div className="container mx-auto  bg-[#D2D2DB] relative top-[600px] lg:top-[450px] xl:top-[600px]  h-auto items-center   justify-center  overflow-hidden py-24">
-          <h1 className="text-3xl text-center font-bold text-black  futura_heavy">
-            Why Choose Amar Tech for Software Development Services?
-          </h1>
-          <div className="container  mx-auto px-[8%] w-screen grid grid-cols-1 sm:grid-cols-2 grid-rows-2   gap-8   items-center justify-between   pt-12  ">
-            {softwareDevelopmentServices.map((service, index) => {
-              return (
-                <div
-                  key={index}
-                  className="bg-[#F4F4F4] drop-shadow-xl    rounded-3xl h-[100%] items-center justify-center py-6 mx-8"
-                >
-                  <div className="flex flex-row p-4 items-center justify-around  ">
-                    <img
-                      src={service.serviceImage}
-                      alt="imageHere"
-                      className="w-[15%] h-auto drop-shadow-xl"
-                    />
-                    <h2 className="text-black  text-xl sm:text-base md:text-lg xl:text-2xl text-center  md:px-8  pt-4 maven-pro-medium">
-                      {service.title}
-                    </h2>
-                  </div>
-
-                  <p className="text-black font-medium text-sm  xl:text-base text-justify px-4 pt-3 content-center maven-pro-regular">
-                    {service.description}
+                  <p className="text-black text-xs  xl:text-sm text-justify  px-8 content-center maven-pro-regular ">
+                    {service.describe}
                   </p>
                 </div>
-              );
-            })}
-          </div>
+              </div>
+            );
+          })}
         </div>
-        {/* ====================== >>> Section 4 End Here <<<< ============================== */}
-        {/* ====================== >>> Section 5 Starts Here <<<< ============================== */}
-        <div className=" bg-[#D2D2DB] pt-12 relative top-[600px] lg:top-[450px] xl:top-[600px]  h-auto  py-12 ">
-          <h1 className="text-4xl text-center   text-black font-semibold  futura_heavy  w-11/12 mx-auto">
-            How Amartech Organize A Smooth Workflow For Their Clients?
-          </h1>
-          <div className="pt-8">
-            <LeftAlignedTimeline />
-          </div>
-        </div>
-        {/* ====================== >>> Section 5 Ends Here <<<< ==============================
-             {/* ====================== >>> Section 6 starts Here <<<< ============================== */}
-     <div className="bg-[#D2D2DB] relative top-[600px] lg:top-[450px] xl:top-[600px]  pt-4 pb-5 grid grid-col-1 justify-center">
-          <div className="bg-[#053F74]  xl:w-[550px] rounded-3xl p-4  flex flex-col items-center justify-center ">
-            <h1 className="text-4xl max-sm:text-3xl text-center text-[#D2D2DB] font-bold pt-12 max-sm:pt-8 maven-pro-regular ">
-              Want To Shape Your Business?
-            </h1>
-            <div className=" max-sm:h-36 rounded-md pt-8 max-sm:pt-4    ">
-              <button className=" bg-[#d2d2db]  rounded-2xl  pl-5  text-2xl max-sm:text-2xl   flex flex-row text-[#FFFFFF] tomorrow-regular">
-                Start Conversation Now
-                <span>
-                  <img src={arrow} alt="imageHere" className="w-14 pl-4" />
-                </span>
-              </button>
-            </div>
-          </div>
-        </div>
+      </div>
 
-        {/* ====================== >>> Section 6 Ends Here <<<< ============================== */}
-        <div className=" bg-[#053F74] relative top-[600px] lg:top-[500px] xl:top-[600px]  p-4 w-100  h-auto mx-auto   mySubContainerClass">
-          <MainFooter />
+      {/* ====================== >>> Section 3 Ends Here <<<< ============================== */}
+      {/* ====================== >>> Section 4 Starts Here <<<< ============================== */}
+      <div className="container mx-auto  bg-[#D2D2DB]   h-auto items-center   justify-center  overflow-hidden py-24">
+        <h1 className="text-3xl text-center font-bold text-black  futura_heavy">
+          Why Choose Amar Tech for Software Development Services?
+        </h1>
+        <div className="container w-[95%]  mx-auto px-[8%]  grid grid-cols-1 sm:grid-cols-2 grid-rows-2   gap-8   items-center justify-between   pt-12  ">
+          {softwareDevelopmentServices.map((service, index) => {
+            return (
+              <div
+                key={index}
+                className="bg-[#F4F4F4] drop-shadow-xl    rounded-3xl h-[100%] items-center justify-center py-6 mx-8"
+              >
+                <div className="flex flex-row p-4 items-center justify-around  ">
+                  <img
+                    src={service.serviceImage}
+                    alt="imageHere"
+                    className="w-[15%] h-auto drop-shadow-xl"
+                  />
+                  <h2 className="text-black  text-xl sm:text-base md:text-lg xl:text-2xl text-center  md:px-8  pt-4 maven-pro-medium">
+                    {service.title}
+                  </h2>
+                </div>
+
+                <p className="text-black font-medium text-xs  xl:text-sm text-justify px-4 pt-3 content-center maven-pro-regular">
+                  {service.description}
+                </p>
+              </div>
+            );
+          })}
         </div>
+      </div>
+      {/* ====================== >>> Section 4 End Here <<<< ============================== */}
+      {/* ====================== >>> Section 5 Starts Here <<<< ============================== */}
+      <div className=" bg-[#D2D2DB] pt-12   h-auto  py-12 ">
+        <h1 className="text-4xl text-center   text-black font-semibold  futura_heavy  w-11/12 mx-auto">
+          How Amartech Organize A Smooth Workflow For Their Clients?
+        </h1>
+        <div className="pt-8 container w-[95%] mx-auto">
+          <LeftAlignedTimeline />
+        </div>
+      </div>
+      {/* ====================== >>> Section 5 Ends Here <<<< ==============================
+             {/* ====================== >>> Section 6 starts Here <<<< ============================== */}
+      <div className="bg-[#D2D2DB]   pt-4 pb-5 grid grid-col-1 justify-center">
+        <div className="bg-[#053F74]  xl:w-[550px] rounded-3xl p-4  flex flex-col items-center justify-center ">
+          <h1 className="text-4xl max-sm:text-3xl text-center text-[#D2D2DB] font-bold pt-12 max-sm:pt-8 maven-pro-regular ">
+            Want To Shape Your Business?
+          </h1>
+          <div className=" max-sm:h-36 rounded-md pt-8 max-sm:pt-4    ">
+            <button className=" bg-[#d2d2db]  rounded-2xl  pl-5  text-2xl max-sm:text-2xl   flex flex-row text-[#FFFFFF] tomorrow-regular">
+              Start Conversation Now
+              <span>
+                <img src={arrow} alt="imageHere" className="w-14 pl-4" />
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* ====================== >>> Section 6 Ends Here <<<< ============================== */}
+      <div className=" bg-[#053F74]   p-4 w-100  h-auto mx-auto   mySubContainerClass">
+        <MainFooter />
       </div>
     </>
   );
