@@ -110,7 +110,7 @@ const FrontEnd = () => {
               className=" object-cover h-[80vh] w-screen"
             ></video>
           </div>
-          <div className="container mx-auto w-[90%]  relative -top-[10rem] left-0 sm:h-10 h-fit ">
+          <div className="container mx-auto sm:w-[90%]  relative -top-[10rem] left-0 sm:h-10 h-fit ">
             <h1 className="text-white font-extrabold mx-4 text-5xl lg:text-6xl px-8  ">
               FrontEnd
             </h1>
@@ -118,8 +118,9 @@ const FrontEnd = () => {
               Development
             </h1>
             <p className="text-black font-bold mx-4  text-2xl px-8 ">
-            Delivering unparalleled user experiences through cutting-edge frontend services, redefining
-digital interactions with seamless innovation.
+              Delivering unparalleled user experiences through cutting-edge
+              frontend services, redefining digital interactions with seamless
+              innovation.
             </p>
           </div>
         </div>
@@ -127,7 +128,7 @@ digital interactions with seamless innovation.
         {/* ====================== >>> Section 2 Starts Here <<<< ============================== */}
 
         <div className="bg-[#D2D2DB] h-full">
-          <div className="container w-[90%] bg-[#D2D2DB] px-14 mt-5   items-center justify-center py-8  overflow-hidden flex flex-col sm:flex-row mx-auto my-6 ">
+          <div className="container sm: w-[90%] bg-[#D2D2DB] px-14 mt-5   items-center justify-center py-8  overflow-hidden flex flex-col sm:flex-row mx-auto my-6 ">
             <img
               src={Sec2Img}
               alt="ImageHere"
@@ -174,7 +175,7 @@ digital interactions with seamless innovation.
                     className="h-[4rem] sm:h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
                   />
                   <h1 className="text-black text-lg font-bold futura_book">
-                  Vue.js
+                    Vue.js
                   </h1>
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -184,7 +185,7 @@ digital interactions with seamless innovation.
                     className="h-[4rem] sm:h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
                   />
                   <h1 className="text-black text-lg font-bold futura_book">
-                  Tailwind CSS
+                    Tailwind CSS
                   </h1>
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -194,7 +195,7 @@ digital interactions with seamless innovation.
                     className="h-[4rem] sm:h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
                   />
                   <h1 className="text-black text-lg font-bold futura_book">
-                  React JS
+                    React JS
                   </h1>
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -204,7 +205,7 @@ digital interactions with seamless innovation.
                     className="h-[4rem] sm:h-[15rem] lg:h-[2rem] xl:h-[4rem] w-auto"
                   />
                   <h1 className="text-black text-lg font-bold futura_book">
-                  JavaScript
+                    JavaScript
                   </h1>
                 </div>
               </div>
@@ -215,7 +216,7 @@ digital interactions with seamless innovation.
         {/* ====================== >>> Section 2 Ends Here <<<< ============================== */}
         {/* ====================== >>> Section 3 Starts Here <<<< ============================== */}
 
-        <div className="container mx-auto w-[90%] bg-[#D2D2DB]    h-auto py-20  overflow-hidden flex flex-col items-center justify-center px-8">
+        <div className="container mx-auto sm:w-[90%] bg-[#D2D2DB]    h-auto py-20  overflow-hidden flex flex-col items-center justify-center px-8">
           <h1 className=" text-3xl py-2 lg:text-3xl xl:text-4xl px-8 text-black font-semibold futura_heavy ">
             Transforming Businesses through Smart Software Solutions and
             Committed Development Teams.
@@ -260,7 +261,7 @@ digital interactions with seamless innovation.
           <h1 className="text-3xl text-center font-bold text-black  futura_heavy">
             Why Choose Amar Tech for Software Development Services?
           </h1>
-          <div className="container w-[95%]  mx-auto px-[8%]  grid grid-cols-1 sm:grid-cols-2 grid-rows-2   gap-8   items-center justify-between   pt-12  ">
+          <div className="container sm:w-[95%]  mx-auto px-[8%]  grid grid-cols-1 sm:grid-cols-2 grid-rows-2   gap-8   items-center justify-between   pt-12  ">
             {softwareDevelopmentServices.map((service, index) => {
               return (
                 <div
@@ -292,7 +293,7 @@ digital interactions with seamless innovation.
           <h1 className="text-4xl text-center   text-black font-semibold  futura_heavy  w-11/12 mx-auto">
             How Amartech Organize A Smooth Workflow For Their Clients?
           </h1>
-          <div className="pt-8 container w-[95%] mx-auto">
+          <div className="pt-8 container sm:w-[95%] sm:mx-auto mx-2">
             <LeftAlignedTimeline />
           </div>
         </div>

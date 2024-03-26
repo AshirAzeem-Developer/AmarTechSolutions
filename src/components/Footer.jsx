@@ -16,7 +16,7 @@ const Footer = () => {
 
   return (
     <>
-      <div className="h-100  bg-white px-12">
+      <div className="h-100  bg-white px-12 py-20">
         <ATCarousel />
       </div>
       {/* ================= >>> Footer <<< ================ */}
